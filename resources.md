@@ -4,6 +4,10 @@
 
 - [Avoid Category Names That Suck](http://www.nngroup.com/articles/category-names-suck/), Nielsen Norman Group
 - [Beware Horizontal Scrolling and Mimicking Swipe on Desktop](http://www.nngroup.com/articles/horizontal-scrolling/), Nielsen Norman Group
+- [Fight Against "Right-Rail Blindness"](http://www.nngroup.com/articles/fight-right-rail-blindness/), Nielsen Norman Group
+- [Infinite Scrolling Is Not for Every Website](http://www.nngroup.com/articles/infinite-scrolling/), Nielsen Norman Group
+- [Killing Off the Global Navigation: One Trend to Avoid](http://www.nngroup.com/articles/killing-global-navigation-one-trend-avoid/), Nielsen Norman Group
+- [Magnifying Glass Icon in Search Design: Pros and Cons, The](http://www.nngroup.com/articles/magnifying-glass-icon/), Nielsen Norman Group
 
 ## Writing Articles
 
