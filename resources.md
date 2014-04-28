@@ -20,5 +20,10 @@
 
 ## Design Resources
 
+- [:nth-child Tester](http://css-tricks.com/examples/nth-child-tester/): Playground for figuring out nth-child selectors
+- [amp-what](http://amp-what.com/): HTML entity character map lookup
 - [Iconmonstr](http://iconmonstr.com/): Icons in SVG and PNG, free-to-use, searchable
 - [Patternify](http://www.patternify.com/): Repeating pattern and dataURI generator
+- [Regexper](http://www.regexper.com/): Visualize regular expressions
+- [Unheap](http://www.unheap.com): jQuery plugins library
+- 
