@@ -20,4 +20,5 @@
 
 ## Design Resources
 
-- [Patternify](http://www.patternify.com/): Repeating Pattern and dataURI Generator
+- [Iconmonstr](http://iconmonstr.com/): Icons in SVG and PNG, free-to-use, searchable
+- [Patternify](http://www.patternify.com/): Repeating pattern and dataURI generator
