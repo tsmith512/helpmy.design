@@ -26,4 +26,3 @@
 - [Patternify](http://www.patternify.com/): Repeating pattern and dataURI generator
 - [Regexper](http://www.regexper.com/): Visualize regular expressions
 - [Unheap](http://www.unheap.com): jQuery plugins library
-- 
