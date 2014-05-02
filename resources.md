@@ -27,3 +27,15 @@
 - [Patternify](http://www.patternify.com/): Repeating pattern and dataURI generator
 - [Regexper](http://www.regexper.com/): Visualize regular expressions
 - [Unheap](http://www.unheap.com): jQuery plugins library
+
+### Style Guide Work
+
+- _[The Style Guide Guide](http://vinspee.me/style-guide-guide/):_ Style guide generators by platform
+- [A Pattern Library _(A List Apart)_](http://patterns.alistapart.com/)
+- [GitHub Style Guide](https://github.com/styleguide/css)
+- [Starbucks Style Guide](http://www.starbucks.com/static/reference/styleguide/)
+- [Voice &amp; Tone _(MailChimp:)_](http://voiceandtone.com/) For writing style, but a great presentation
+- [Yelp Style Guide](http://www.yelp.com/styleguide)
+
+
+
