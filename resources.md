@@ -10,6 +10,10 @@
 - [Killing Off the Global Navigation: One Trend to Avoid](http://www.nngroup.com/articles/killing-global-navigation-one-trend-avoid/), Nielsen Norman Group
 - [Magnifying Glass Icon in Search Design: Pros and Cons, The](http://www.nngroup.com/articles/magnifying-glass-icon/), Nielsen Norman Group
 
+## Design Articles
+
+- [Best Practices of Combining Typefaces](http://www.smashingmagazine.com/2010/11/04/best-practices-of-combining-typefaces/), Smashing Magazine
+
 ## Writing Articles
 
 - Break Grammar Rules on Websites for Clarity
@@ -19,14 +23,17 @@
 
 # Resources
 
-## Design Resources
+## Development Resources
 
 - [:nth-child Tester](http://css-tricks.com/examples/nth-child-tester/): Playground for figuring out nth-child selectors
 - [amp-what](http://amp-what.com/): HTML entity character map lookup
-- [Iconmonstr](http://iconmonstr.com/): Icons in SVG and PNG, free-to-use, searchable
-- [Patternify](http://www.patternify.com/): Repeating pattern and dataURI generator
 - [Regexper](http://www.regexper.com/): Visualize regular expressions
 - [Unheap](http://www.unheap.com): jQuery plugins library
+
+## Design Resources
+
+- [Iconmonstr](http://iconmonstr.com/): Icons in SVG and PNG, free-to-use, searchable
+- [Patternify](http://www.patternify.com/): Repeating pattern and dataURI generator
 
 ### Style Guides
 
