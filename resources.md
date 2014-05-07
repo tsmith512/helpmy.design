@@ -5,6 +5,7 @@
 - [Avoid Category Names That Suck](http://www.nngroup.com/articles/category-names-suck/), Nielsen Norman Group
 - [Avoid Inline Scrolling Areas](http://baymard.com/blog/inline-scroll-areas), Baymard Institute
 - [Beware Horizontal Scrolling and Mimicking Swipe on Desktop](http://www.nngroup.com/articles/horizontal-scrolling/), Nielsen Norman Group
+- [Breadcrumb Navigation Increasingly Useful](http://www.nngroup.com/articles/breadcrumb-navigation-useful/), Nielsen Norman Group (2007)
 - [Fight Against "Right-Rail Blindness"](http://www.nngroup.com/articles/fight-right-rail-blindness/), Nielsen Norman Group
 - [Four Dangerous Navigation Approaches that Can Increase Cognitive Strain](http://www.nngroup.com/articles/navigation-cognitive-strain/), Nielsen Norman Group
 - [Infinite Scrolling Is Not for Every Website](http://www.nngroup.com/articles/infinite-scrolling/), Nielsen Norman Group
