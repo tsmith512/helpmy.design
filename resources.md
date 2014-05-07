@@ -26,9 +26,13 @@
 
 # Resources
 
+## Accessibility Resources
+
+- [Color Contrast Checker](http://webaim.org/resources/contrastchecker/), WebAIM: Color contrast calculator
+
 ## Development Resources
 
-- [:nth-child Tester](http://css-tricks.com/examples/nth-child-tester/): Playground for figuring out nth-child selectors
+- [:nth-child Tester](http://css-tricks.com/examples/nth-child-tester/), CSS Tricks: Playground for figuring out nth-child selectors
 - [amp-what](http://amp-what.com/): HTML entity character map lookup
 - [Regexper](http://www.regexper.com/): Visualize regular expressions
 - [Unheap](http://www.unheap.com): jQuery plugins library
