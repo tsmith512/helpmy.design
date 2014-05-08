@@ -16,6 +16,7 @@
 ## Design Articles
 
 - [Best Practices of Combining Typefaces](http://www.smashingmagazine.com/2010/11/04/best-practices-of-combining-typefaces/), Smashing Magazine
+- [Contrast Rebellion](http://contrastrebellion.com/)
 
 ## Writing Articles
 
