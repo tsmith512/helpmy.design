@@ -13,6 +13,10 @@
 - [Killing Off the Global Navigation: One Trend to Avoid](http://www.nngroup.com/articles/killing-global-navigation-one-trend-avoid/), Nielsen Norman Group
 - [Magnifying Glass Icon in Search Design: Pros and Cons, The](http://www.nngroup.com/articles/magnifying-glass-icon/), Nielsen Norman Group
 
+## UX Blogs
+
+- [UXMyths](http://uxmyths.com/)
+
 ## Design Articles
 
 - [Best Practices of Combining Typefaces](http://www.smashingmagazine.com/2010/11/04/best-practices-of-combining-typefaces/), Smashing Magazine
