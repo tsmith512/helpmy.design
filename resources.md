@@ -12,6 +12,7 @@
 - [Infinite Scrolling Is Not for Every Website](http://www.nngroup.com/articles/infinite-scrolling/), Nielsen Norman Group
 - [Killing Off the Global Navigation: One Trend to Avoid](http://www.nngroup.com/articles/killing-global-navigation-one-trend-avoid/), Nielsen Norman Group
 - [Magnifying Glass Icon in Search Design: Pros and Cons, The](http://www.nngroup.com/articles/magnifying-glass-icon/), Nielsen Norman Group
+- [Placeholders in Form Fields Are Harmful](http://www.nngroup.com/articles/form-design-placeholders), Nielsen Norman Group (2014).
 
 ## UX Blogs
 
