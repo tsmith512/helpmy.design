@@ -2,6 +2,7 @@
 
 ## UX Articles
 
+- [Auto-Forwarding Carousels and Accordions Annoy Users and Reduce Visibility](http://www.nngroup.com/articles/auto-forwarding/), Nielsen Norman Group (2013).
 - [Avoid Category Names That Suck](http://www.nngroup.com/articles/category-names-suck/), Nielsen Norman Group
 - [Avoid Inline Scrolling Areas](http://baymard.com/blog/inline-scroll-areas), Baymard Institute
 - [Beware Horizontal Scrolling and Mimicking Swipe on Desktop](http://www.nngroup.com/articles/horizontal-scrolling/), Nielsen Norman Group
