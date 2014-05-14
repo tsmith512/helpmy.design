@@ -7,12 +7,14 @@
 - [Beware Horizontal Scrolling and Mimicking Swipe on Desktop](http://www.nngroup.com/articles/horizontal-scrolling/), Nielsen Norman Group
 - [Breadcrumbs in Web Design: Examples and Best Practices](http://www.smashingmagazine.com/2009/03/17/breadcrumbs-in-web-design-examples-and-best-practices/), Smashing Magazine (2009).
 - [Breadcrumb Navigation Increasingly Useful](http://www.nngroup.com/articles/breadcrumb-navigation-useful/), Nielsen Norman Group (2007).
+- [Designing Effective Carousels: Create a Fanciful Amusement, Not a House of Horrors](http://www.nngroup.com/articles/designing-effective-carousels/), Nielsen Norman Group (2013).
 - [Fight Against "Right-Rail Blindness"](http://www.nngroup.com/articles/fight-right-rail-blindness/), Nielsen Norman Group
 - [Four Dangerous Navigation Approaches that Can Increase Cognitive Strain](http://www.nngroup.com/articles/navigation-cognitive-strain/), Nielsen Norman Group
 - [Infinite Scrolling Is Not for Every Website](http://www.nngroup.com/articles/infinite-scrolling/), Nielsen Norman Group
 - [Killing Off the Global Navigation: One Trend to Avoid](http://www.nngroup.com/articles/killing-global-navigation-one-trend-avoid/), Nielsen Norman Group
 - [Magnifying Glass Icon in Search Design: Pros and Cons, The](http://www.nngroup.com/articles/magnifying-glass-icon/), Nielsen Norman Group
 - [Placeholders in Form Fields Are Harmful](http://www.nngroup.com/articles/form-design-placeholders), Nielsen Norman Group (2014).
+- [Should I Use a Carousel?](http://shouldiuseacarousel.com/)
 
 ## UX Blogs
 
