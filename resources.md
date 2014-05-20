@@ -43,6 +43,7 @@
 
 - [:nth-child Tester](http://css-tricks.com/examples/nth-child-tester/), CSS Tricks: Playground for figuring out nth-child selectors
 - [amp-what](http://amp-what.com/): HTML entity character map lookup
+- [DataURL.net](http://dataurl.net/): Create dataURL strings from images
 - [Regexper](http://www.regexper.com/): Visualize regular expressions
 - [Unheap](http://www.unheap.com): jQuery plugins library
 
