@@ -52,6 +52,7 @@
 - [Iconmonstr](http://iconmonstr.com/): Icons in SVG and PNG, free-to-use, searchable
 - [Noise Texture Generator](http://www.noisetexturegenerator.com/): Generates noise in PNGs for patterns; provides repeating sample. _Tip: Inspect Element to get the image as a dataURI._
 - [Patternify](http://www.patternify.com/): Repeating pattern and dataURI generator
+- [Subtle Patterns](http://subtlepatterns.com/): Downloadable 200x200 repeatable textures/patterns, very high quality.
 
 ### Style Guides
 
