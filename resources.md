@@ -2,6 +2,7 @@
 
 ## UX Articles
 
+- [Accordions Are Not Always the Answer for Complex Content on Desktops](http://www.nngroup.com/articles/accordions-complex-content/), Nielsen Norman Group (2014).
 - [Auto-Forwarding Carousels and Accordions Annoy Users and Reduce Visibility](http://www.nngroup.com/articles/auto-forwarding/), Nielsen Norman Group (2013).
 - [Avoid Category Names That Suck](http://www.nngroup.com/articles/category-names-suck/), Nielsen Norman Group
 - [Avoid Inline Scrolling Areas](http://baymard.com/blog/inline-scroll-areas), Baymard Institute
