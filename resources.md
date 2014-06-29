@@ -5,6 +5,7 @@
 - [Accordions Are Not Always the Answer for Complex Content on Desktops](http://www.nngroup.com/articles/accordions-complex-content/), Nielsen Norman Group (2014).
 - [Auto-Forwarding Carousels and Accordions Annoy Users and Reduce Visibility](http://www.nngroup.com/articles/auto-forwarding/), Nielsen Norman Group (2013).
 - [Avoid Category Names That Suck](http://www.nngroup.com/articles/category-names-suck/), Nielsen Norman Group
+- [Avoid Format-Based Primary Navigation](http://www.nngroup.com/articles/format-based-navigation/), Nielsen Norman Group (2014).
 - [Avoid Inline Scrolling Areas](http://baymard.com/blog/inline-scroll-areas), Baymard Institute
 - [Beware Horizontal Scrolling and Mimicking Swipe on Desktop](http://www.nngroup.com/articles/horizontal-scrolling/), Nielsen Norman Group
 - [Breadcrumbs in Web Design: Examples and Best Practices](http://www.smashingmagazine.com/2009/03/17/breadcrumbs-in-web-design-examples-and-best-practices/), Smashing Magazine (2009).
