@@ -2,6 +2,7 @@
 
 ## UX Articles
 
+- [16 Pixels: For Body Copy. Anything Less Is A Costly Mistake](http://www.smashingmagazine.com/2011/10/07/16-pixels-body-copy-anything-less-costly-mistake/), Smashing Magazine (2011).
 - [Accordions Are Not Always the Answer for Complex Content on Desktops](http://www.nngroup.com/articles/accordions-complex-content/), Nielsen Norman Group (2014).
 - [Auto-Forwarding Carousels and Accordions Annoy Users and Reduce Visibility](http://www.nngroup.com/articles/auto-forwarding/), Nielsen Norman Group (2013).
 - [Avoid Category Names That Suck](http://www.nngroup.com/articles/category-names-suck/), Nielsen Norman Group
