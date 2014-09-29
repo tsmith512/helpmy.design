@@ -14,6 +14,7 @@
 - [Designing Effective Carousels: Create a Fanciful Amusement, Not a House of Horrors](http://www.nngroup.com/articles/designing-effective-carousels/), Nielsen Norman Group (2013).
 - [Fight Against "Right-Rail Blindness"](http://www.nngroup.com/articles/fight-right-rail-blindness/), Nielsen Norman Group
 - [Four Dangerous Navigation Approaches that Can Increase Cognitive Strain](http://www.nngroup.com/articles/navigation-cognitive-strain/), Nielsen Norman Group
+- [Image-Focused Design: Is Bigger Better?](http://www.nngroup.com/articles/image-focused-design/), Nielsen Norman Group (2014).
 - [Infinite Scrolling Is Not for Every Website](http://www.nngroup.com/articles/infinite-scrolling/), Nielsen Norman Group
 - [Killing Off the Global Navigation: One Trend to Avoid](http://www.nngroup.com/articles/killing-global-navigation-one-trend-avoid/), Nielsen Norman Group
 - [Magnifying Glass Icon in Search Design: Pros and Cons, The](http://www.nngroup.com/articles/magnifying-glass-icon/), Nielsen Norman Group
