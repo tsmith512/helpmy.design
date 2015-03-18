@@ -11,6 +11,7 @@
 - [Beware Horizontal Scrolling and Mimicking Swipe on Desktop](http://www.nngroup.com/articles/horizontal-scrolling/), Nielsen Norman Group
 - [Breadcrumbs in Web Design: Examples and Best Practices](http://www.smashingmagazine.com/2009/03/17/breadcrumbs-in-web-design-examples-and-best-practices/), Smashing Magazine (2009).
 - [Breadcrumb Navigation Increasingly Useful](http://www.nngroup.com/articles/breadcrumb-navigation-useful/), Nielsen Norman Group (2007).
+- [Creating a DoGo Map, Step-by-Step](http://uxpamagazine.org/creating-a-dogo-map/), UXPA Magazine (2015).
 - [Designing Effective Carousels: Create a Fanciful Amusement, Not a House of Horrors](http://www.nngroup.com/articles/designing-effective-carousels/), Nielsen Norman Group (2013).
 - [Fight Against "Right-Rail Blindness"](http://www.nngroup.com/articles/fight-right-rail-blindness/), Nielsen Norman Group
 - [Four Dangerous Navigation Approaches that Can Increase Cognitive Strain](http://www.nngroup.com/articles/navigation-cognitive-strain/), Nielsen Norman Group
