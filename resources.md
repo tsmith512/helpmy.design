@@ -2,25 +2,6 @@
 
 ## UX Articles
 
-- [16 Pixels: For Body Copy. Anything Less Is A Costly Mistake](http://www.smashingmagazine.com/2011/10/07/16-pixels-body-copy-anything-less-costly-mistake/), Smashing Magazine (2011).
-- [Accordions Are Not Always the Answer for Complex Content on Desktops](http://www.nngroup.com/articles/accordions-complex-content/), Nielsen Norman Group (2014).
-- [Auto-Forwarding Carousels and Accordions Annoy Users and Reduce Visibility](http://www.nngroup.com/articles/auto-forwarding/), Nielsen Norman Group (2013).
-- [Avoid Category Names That Suck](http://www.nngroup.com/articles/category-names-suck/), Nielsen Norman Group
-- [Avoid Format-Based Primary Navigation](http://www.nngroup.com/articles/format-based-navigation/), Nielsen Norman Group (2014).
-- [Avoid Inline Scrolling Areas](http://baymard.com/blog/inline-scroll-areas), Baymard Institute
-- [Beware Horizontal Scrolling and Mimicking Swipe on Desktop](http://www.nngroup.com/articles/horizontal-scrolling/), Nielsen Norman Group
-- [Breadcrumbs in Web Design: Examples and Best Practices](http://www.smashingmagazine.com/2009/03/17/breadcrumbs-in-web-design-examples-and-best-practices/), Smashing Magazine (2009).
-- [Breadcrumb Navigation Increasingly Useful](http://www.nngroup.com/articles/breadcrumb-navigation-useful/), Nielsen Norman Group (2007).
-- [Designing Effective Carousels: Create a Fanciful Amusement, Not a House of Horrors](http://www.nngroup.com/articles/designing-effective-carousels/), Nielsen Norman Group (2013).
-- [Fight Against "Right-Rail Blindness"](http://www.nngroup.com/articles/fight-right-rail-blindness/), Nielsen Norman Group
-- [Four Dangerous Navigation Approaches that Can Increase Cognitive Strain](http://www.nngroup.com/articles/navigation-cognitive-strain/), Nielsen Norman Group
-- [Image-Focused Design: Is Bigger Better?](http://www.nngroup.com/articles/image-focused-design/), Nielsen Norman Group (2014).
-- [Infinite Scrolling Is Not for Every Website](http://www.nngroup.com/articles/infinite-scrolling/), Nielsen Norman Group
-- [Killing Off the Global Navigation: One Trend to Avoid](http://www.nngroup.com/articles/killing-global-navigation-one-trend-avoid/), Nielsen Norman Group
-- [Magnifying Glass Icon in Search Design: Pros and Cons, The](http://www.nngroup.com/articles/magnifying-glass-icon/), Nielsen Norman Group
-- [Placeholders in Form Fields Are Harmful](http://www.nngroup.com/articles/form-design-placeholders), Nielsen Norman Group (2014).
-- [Should I Use a Carousel?](http://shouldiuseacarousel.com/)
-
 ## UX Blogs
 
 - [UXMyths](http://uxmyths.com/)
