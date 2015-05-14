@@ -1,0 +1,8 @@
+{
+  "name": "helpmydesign",
+  "description": "An interactive collection of articles and resources to empower designers and educate the masses.",
+  "version": "0.0.1",
+  "devDependencies": {
+    "gulp": "^3.8.11"
+  }
+}
