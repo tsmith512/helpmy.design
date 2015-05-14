@@ -1,15 +1,21 @@
 (function(){
   'use strict';
 
+  var presentArticles = function(data) {
+    console.log(data);
+    dust.render('article.html', data, function(err, out) {
+      document.getElementById('index').innerHTML = out;
+    });
+  }
+
   // Load the Articles
   var request = new XMLHttpRequest();
   request.open('GET', '/js/articles.json', true);
 
   request.onload = function() {
     if (this.status >= 200 && this.status < 400) {
-      // Success!
       var data = JSON.parse(this.response);
-      console.log(data);
+      presentArticles(data);
     } else {
       console.log('Response Error ' + this.status);
     }

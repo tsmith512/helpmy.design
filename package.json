@@ -4,6 +4,8 @@
   "version": "0.0.1",
   "devDependencies": {
     "gulp": "^3.8.11",
+    "gulp-dust": "^1.0.2",
+    "gulp-watch": "^4.2.4",
     "gulp-yaml": "^0.2.4"
   }
 }
