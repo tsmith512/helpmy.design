@@ -20,6 +20,18 @@
       });
     });
 
+    var filterStylesheet = document.createElement('style'),
+        cssRules = ['.js-filtered article { display: none; }'];
+
+    for (var tag in tags) {
+      if (tags.hasOwnProperty(tag)) {
+        cssRules.push('.js-filtered.tag-' + tag + ' .tag-' + tag + ' { display: block; }');
+      }
+    }
+    filterStylesheet.type = 'text/css';
+    filterStylesheet.innerHTML = cssRules.join(' ');
+    document.getElementsByTagName('head')[0].appendChild(filterStylesheet);
+
     // @TODO: Remove debug code
     console.log(data);
     console.log(tags);
