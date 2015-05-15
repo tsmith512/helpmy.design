@@ -4,6 +4,18 @@
   var tags = {};
 
   var presentArticles = function(data) {
+
+    // Sort all articles by title
+    // @TODO: This would be better done server-side when the index is processed
+    data.articles.sort(function(a, b){
+      var titleA = a.title.toLowerCase().replace(/^(a(n)?|the) /, ''),
+          titleB = b.title.toLowerCase().replace(/^(a(n)?|the) /, '');
+
+      if      (titleA > titleB) { return  1 }
+      else if (titleA < titleB) { return -1 }
+      else    { return 0 }
+    });
+
     // Process each article
     data.articles.forEach(function(item, i){
 
