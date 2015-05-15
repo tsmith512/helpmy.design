@@ -8,18 +8,11 @@
 
 ## Design Articles
 
-- [Best Practices of Combining Typefaces](http://www.smashingmagazine.com/2010/11/04/best-practices-of-combining-typefaces/), Smashing Magazine
-- [Contrast Rebellion](http://contrastrebellion.com/)
 
 ## Development Articles / Guides
 - [Learn to Code HTML & CSS | Develop & Style Websites](http://learn.shayhowe.com/html-css/)
 
 ## Writing Articles
-
-- Break Grammar Rules on Websites for Clarity
-  [Part One](http://www.nngroup.com/articles/break-grammar-rules/)
-  and [Part Two](http://www.nngroup.com/articles/really-break-grammar-rules/), Nielsen Norman Group
-- [Why Your Links Should Never Say "Click Here"](http://uxmovement.com/content/why-your-links-should-never-say-click-here/), UX Movement
 
 # Resources
 

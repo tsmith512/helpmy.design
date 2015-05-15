@@ -79,3 +79,25 @@ articles:
   - title: 'Should I Use a Carousel?'
     url:   'http://shouldiuseacarousel.com/'
     tags:  [ux, carousels]
+  - title: 'Best Practices of Combining Typefaces'
+    url:   'http://www.smashingmagazine.com/2010/11/04/best-practices-of-combining-typefaces/'
+    by:    'Smashing Magazine'
+    tags:  [design, typography]
+  - title: 'Contrast Rebellion'
+    url:   'http://contrastrebellion.com/'
+    tags:  [ux, design, typography, accessibility, usability]
+  - title: 'Why Your Links Should Never Say "Click Here"'
+    url:   'http://uxmovement.com/content/why-your-links-should-never-say-click-here/'
+    by:    'UX Movement'
+    year:  2012
+    tags:  [ux, writing, outdated, accessibility, usability]
+  - title: 'Break Grammar Rules on Websites for Clarity'
+    url:   'http://www.nngroup.com/articles/break-grammar-rules/'
+    by:    'Nielsen Norman Group'
+    year:  2014
+    tags:  [ux, writing, usability]
+  - title: 'Really Break Grammar Rules on Websites: Part Two'
+    url:   'http://www.nngroup.com/articles/really-break-grammar-rules/'
+    by:    'Nielsen Norman Group'
+    year:  2014
+    tags:  [ux, writing, usability]
