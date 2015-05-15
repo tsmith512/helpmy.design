@@ -1,0 +1,38 @@
+////////////////////////
+// Mixins Partials
+//
+// All of your mixins should go in this file.
+////////////////////////
+
+// For invisible elements; this is the same code Drupal uses. We're putting it in
+// a mixin so that we don't muddle the selector in big extendables.
+@mixin element-invisible() {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  overflow: hidden;
+  height: 1px;
+}
+
+////////////////////////////////////
+// Wrapper for respond-to.
+////////////////////////////////////
+@mixin rt($context, $no-query: false) {
+  @include respond-to($context, $no-query) {
+    @content;
+  }
+}
+
+// RTL styles
+@mixin rtl {
+  html[dir="rtl"] & {
+    @content;
+  }
+}
+
+// Special mixin for IE8 RTL
+@mixin ie-breakpoint-rtl {
+  html[dir="rtl"].lt-ie9 & {
+    @content;
+  }
+}

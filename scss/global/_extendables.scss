@@ -1,0 +1,8 @@
+////////////////////////
+// Non-Component Extendables
+////////////////////////
+
+.clearfix,
+%clearfix {
+	@include clearfix;
+}
