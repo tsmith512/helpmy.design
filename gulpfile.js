@@ -1,5 +1,7 @@
 var gulp = require('gulp'),
-    dust = require('gulp-dust');
+    browserSync = require('browser-sync').create(),
+    dust = require('gulp-dust'),
+    reload = browserSync.reload,
     watch = require('gulp-watch'),
     yaml = require('gulp-yaml');
 
@@ -25,17 +27,15 @@ gulp.task('dev', function() {
     .pipe(gulp.dest('_dist/js/'));
 });
 
-gulp.task('dev-watch', function () {
-  watch("js/**/*.js", function() {
-    setTimeout(function(){gulp.start("dev");}, 300);
+// Static Server + watching scss/html files
+gulp.task('serve', ['index', 'dust-templates', 'dev'], function() {
+
+  browserSync.init({
+    server: "_dist"
   });
-  watch("*.html", function() {
-    setTimeout(function(){gulp.start("dev");}, 300);
-  });
-  watch("tpl/*.html", function() {
-    setTimeout(function(){gulp.start("dust-templates");}, 300);
-  });
-  watch("links/*.yml", function() {
-    setTimeout(function(){gulp.start("index");}, 300);
-  });
+
+  gulp.watch("js/**/*.js", ['dev']).on('change', reload);
+  gulp.watch("*.html", ['dev']).on('change', reload);
+  gulp.watch("tpl/*.html", ['dust-templates']).on('change', reload);
+  gulp.watch("links/*.yml", ['index']).on('change', reload);
 });
