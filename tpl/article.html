@@ -1,7 +1,7 @@
 {#articles}
-  <article>
+  <article id="article-{id}" class="{#tags}tag-{.} {/tags} {?by}has-author{/by} {?year}has-year{/year}">
     <h1><a href="{url}">{title}</a></h1>
-    <span class="author">{?by}{by}{/by}</span> <span class="year">{?year}({year}){/year}</span>
-    {?tags}<ul class="tags">{#tags}<li>{.}</li>{/tags}</ul>{/tags}
+    {?by}<span class="author">{by}</span>{/by} {?year}<span class="year">({year})</span>{/year}
+    {?tags}<ul class="tags">{#tags}<li data-tag="tag-{.}">{.}</li>{/tags}</ul>{/tags}
   </article>
 {/articles}
