@@ -3,61 +3,79 @@ articles:
     url:   'http://www.smashingmagazine.com/2011/10/07/16-pixels-body-copy-anything-less-costly-mistake/'
     by:    'Smashing Magazine'
     year:  2011
+    tags:  [ux, typography]
   - title: 'Accordions Are Not Always the Answer for Complex Content on Desktops'
     url:   'http://www.nngroup.com/articles/accordions-complex-content/'
     by:    'Nielsen Norman Group'
     year:   2014
+    tags:  [ux, desktop, accordions]
   - title: 'Auto-Forwarding Carousels and Accordions Annoy Users and Reduce Visibility'
     url:   'http://www.nngroup.com/articles/auto-forwarding/'
     by:    'Nielsen Norman Group'
     year:  2013
+    tags:  [ux, carousels, accordions, visibility]
   - title: 'Avoid Category Names That Suck'
     url:   'http://www.nngroup.com/articles/category-names-suck/'
     by:    'Nielsen Norman Group'
+    tags:  [ux, writing, taxonomy, navigation]
   - title: 'Avoid Format-Based Primary Navigation'
     url:   'http://www.nngroup.com/articles/format-based-navigation/'
     by:    'Nielsen Norman Group'
     year:  2014
+    tags:  [ux, navigation, taxonomy]
   - title: 'Avoid Inline Scrolling Areas'
     url:   'http://baymard.com/blog/inline-scroll-areas'
     by:    'Baymard Institute'
+    tags:  [ux, scrolling]
   - title: 'Beware Horizontal Scrolling and Mimicking Swipe on Desktop'
     url:   'http://www.nngroup.com/articles/horizontal-scrolling/'
     by:    'Nielsen Norman Group'
+    tags:  [ux, scrolling, desktop]
   - title: 'Breadcrumbs in Web Design: Examples and Best Practices'
     url:   'http://www.smashingmagazine.com/2009/03/17/breadcrumbs-in-web-design-examples-and-best-practices/'
     by:    'Smashing Magazine'
     year:  2009
+    tags:  [ux, navigation, writing, breadcrumbs]
   - title: 'Breadcrumb Navigation Increasingly Useful'
     url:   'http://www.nngroup.com/articles/breadcrumb-navigation-useful/'
     by:    'Nielsen Norman Group'
     year:  2007
+    tags:  [ux, breadcrumbs, navigation]
   - title: 'Designing Effective Carousels: Create a Fanciful Amusement, Not a House of Horrors'
     url:   'http://www.nngroup.com/articles/designing-effective-carousels/'
     by:    'Nielsen Norman Group'
     year:  2013
+    tags:  [ux, carousels]
   - title: 'Fight Against "Right-Rail Blindness"'
     url:   'http://www.nngroup.com/articles/fight-right-rail-blindness/'
     by:    'Nielsen Norman Group'
+    tags:  [ux, sidebars, visibility]
   - title: 'Four Dangerous Navigation Approaches that Can Increase Cognitive Strain'
     url:   'http://www.nngroup.com/articles/navigation-cognitive-strain/'
     by:    'Nielsen Norman Group'
+    tags:  [ux, navigation, writing]
   - title: 'Image-Focused Design: Is Bigger Better?'
     url:   'http://www.nngroup.com/articles/image-focused-design/'
     by:    'Nielsen Norman Group'
     year:  2014
+    tags:  [ux, images]
   - title: 'Infinite Scrolling Is Not for Every Website'
     url:   'http://www.nngroup.com/articles/infinite-scrolling/'
     by:    'Nielsen Norman Group'
+    tags:  [ux, scrolling]
   - title: 'Killing Off the Global Navigation: One Trend to Avoid'
     url:   'http://www.nngroup.com/articles/killing-global-navigation-one-trend-avoid/'
     by:    'Nielsen Norman Group'
+    tags:  [ux, navigation]
   - title: 'Magnifying Glass Icon in Search Design: Pros and Cons, The'
     url:   'http://www.nngroup.com/articles/magnifying-glass-icon/'
     by:    'Nielsen Norman Group'
+    tags:  [ux, iconography, internationalization]
   - title: 'Placeholders in Form Fields Are Harmful'
     url:   'http://www.nngroup.com/articles/form-design-placeholders'
     by:    'Nielsen Norman Group'
     year:  2014
+    tags:  [ux, forms]
   - title: 'Should I Use a Carousel?'
     url:   'http://shouldiuseacarousel.com/'
+    tags:  [ux, carousels]

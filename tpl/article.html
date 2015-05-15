@@ -2,5 +2,6 @@
   <article>
     <h1><a href="{url}">{title}</a></h1>
     <span class="author">{?by}{by}{/by}</span> <span class="year">{?year}({year}){/year}</span>
+    {?tags}<ul class="tags">{#tags}<li>{.}</li>{/tags}</ul>{/tags}
   </article>
 {/articles}
