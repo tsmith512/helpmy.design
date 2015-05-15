@@ -1,6 +1,6 @@
 <select name="filter" id="filter">
   <option selected value="any">- Filter -</option>
-  {@iterate key=tags}
+  {@iterate key=tags sort="asc"}
     <option value="tag-{$key}">{$key} ({$value})</option>
     {$key}:{$value} {$type}
   {/iterate}
