@@ -34,7 +34,13 @@
       document.getElementById('filters').innerHTML = out;
 
       document.getElementById('filter').addEventListener('change', function(event) {
-        alert(event.target.value);
+        var currentTag = event.target.value,
+            index = document.getElementById('index');
+        index.className = '';
+        if (currentTag != 'any') {
+          index.classList.add('js-filtered');
+          index.classList.add(currentTag);
+        }
       });
     });
   }
