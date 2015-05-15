@@ -1,0 +1,7 @@
+<select name="filter" id="filter">
+  <option selected value="any">- Filter -</option>
+  {@iterate key=tags}
+    <option value="tag-{$key}">{$key} ({$value})</option>
+    {$key}:{$value} {$type}
+  {/iterate}
+</select>

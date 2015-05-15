@@ -1,13 +1,41 @@
 (function(){
   'use strict';
 
+  var tags = {};
+
   var presentArticles = function(data) {
+    // Process each article
     data.articles.forEach(function(item, i){
+
+      // Add an ID to each
       item.id = i;
+
+      // Aggregate tags across all articles so we have a count of each
+      item.tags.forEach(function(tag, x){
+        if (tag in tags) {
+          tags[tag]++
+        } else {
+          tags[tag] = 1;
+        }
+      });
     });
+
+    // @TODO: Remove debug code
     console.log(data);
+    console.log(tags);
+
+    // Render out all article teasers
     dust.render('article.html', data, function(err, out) {
       document.getElementById('index').innerHTML = out;
+    });
+
+    // Render out the filters
+    dust.render('form.html', {'tags':tags}, function(err, out) {
+      document.getElementById('filters').innerHTML = out;
+
+      document.getElementById('filter').addEventListener('change', function(event) {
+        alert(event.target.value);
+      });
     });
   }
 
