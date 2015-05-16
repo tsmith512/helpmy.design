@@ -38,6 +38,7 @@
     for (var tag in tags) {
       if (tags.hasOwnProperty(tag)) {
         cssRules.push('.js-filtered.tag-' + tag + ' .tag-' + tag + ' { display: block; }');
+        cssRules.push('.js-filtered.tag-' + tag + ' li[data-tag="tag-' + tag + '"] { color: white; }');
       }
     }
     filterStylesheet.type = 'text/css';
