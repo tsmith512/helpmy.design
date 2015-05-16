@@ -60,6 +60,9 @@ article {
       list-style: none;
       display: inline-block;
       cursor: pointer;
+
+      @include transition(color 0.2s ease-out);
+      &:hover { color: hmd-color($grey, highlight, 10%); }
     }
   }
 }
