@@ -1,0 +1,45 @@
+/**
+ * @file _article.scss
+ * Each article teaser on the index
+ */
+article {
+  h1 {
+    margin-bottom: 0;
+
+    a {
+      @include underline($background: white, $color: $link, $distance: 0.9875, $width: 1);
+    }
+  }
+
+  .author, .year, .tags {
+    display: block;
+    font-size: 0.875em;
+    padding-left: 2em;
+    background: {
+      position: center left;
+      size: 1em 1em;
+      repeat: no-repeat;
+    }
+  }
+
+  .author {
+    // @TODO: Compass image-url() and similar paths are including the
+    // entire filesystem path, which is weird and annoying and nothing
+    // I've tried has fixed it.
+    background-image: url('../gfx/icons/author.svg');
+  }
+
+  .year {
+    background-image: url('../gfx/icons/calendar.svg');
+  }
+
+  .tags {
+    background-image: url('../gfx/icons/tags.svg');
+    margin: 0;
+
+    li {
+      list-style: none;
+      display: inline-block;
+    }
+  }
+}

@@ -38,6 +38,8 @@ gulp.task('dev', function() {
     .pipe(gulp.dest('_dist/'));
   gulp.src('js/**/*.js')
     .pipe(gulp.dest('_dist/js/'));
+  gulp.src('img/**/*.*')
+    .pipe(gulp.dest('_dist/gfx/'));
 });
 
 // Static Server + watching scss/html files
@@ -47,10 +49,11 @@ gulp.task('serve', ['index', 'dust-templates', 'dev', 'sass'], function() {
     server: "_dist"
   });
 
-  gulp.watch("js/**/*.js", ['dev']).on('change', reload);
-  gulp.watch("*.html", ['dev']).on('change', reload);
-  gulp.watch("tpl/*.html", ['dust-templates']).on('change', reload);
-  gulp.watch("links/*.yml", ['index']).on('change', reload);
-  gulp.watch("scss/**/*.scss", ['sass']).on('change', reload);
-  gulp.watch("_dist/css/**/*.css").on('change', reload);
+  gulp.watch("js/**/*.js", ['dev']);
+  gulp.watch("*.html", ['dev']);
+  gulp.watch("img/**/*.*", ['dev'])
+  gulp.watch("tpl/*.html", ['dust-templates']);
+  gulp.watch("links/*.yml", ['index']);
+  gulp.watch("scss/**/*.scss", ['sass']);
+  gulp.watch("_dist/**/*.*").on('change', reload);
 });
