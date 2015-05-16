@@ -3,22 +3,42 @@
  * Each article teaser on the index
  */
 article {
+  background: $black;
+  padding: 1em;
+  padding-bottom: (1 - 0.825em);
+  margin: 1em auto;
+  @include border-radius(8px);
+
   h1 {
-    margin-bottom: 0;
+    margin: 0 0 0.5em 0;
 
     a {
-      @include underline($background: white, $color: $link, $distance: 0.9875, $width: 1);
+      &, &:link { color: $white; }
+      &:visited { color: hmd-color($grey, 'bright'); }
+      &:hover, &:active { color: $link; }
+      @include underline($background: $black, $color: hmd-color($grey, 'bright'), $distance: 0.9875, $width: 1);
     }
   }
 
   .author, .year, .tags {
     display: block;
-    font-size: 0.875em;
+    font-size: 0.825em;
     padding-left: 2em;
+    color: hmd-color($grey, 'highlight');
+    @include text-shadow(1px 1px 0 rgb(0,0,0));
     background: {
       position: center left;
       size: 1em 1em;
       repeat: no-repeat;
+    }
+
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+
+    &:not(:last-child) {
+      border-bottom: 1px dotted hmd-color($grey, 'dark');
     }
   }
 
@@ -35,7 +55,6 @@ article {
 
   .tags {
     background-image: url('../gfx/icons/tags.svg');
-    margin: 0;
 
     li {
       list-style: none;
