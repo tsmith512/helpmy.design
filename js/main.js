@@ -51,6 +51,19 @@
     // Render out all article teasers
     dust.render('article.html', data, function(err, out) {
       document.getElementById('index').innerHTML = out;
+
+      var elements = document.querySelectorAll('.tags li');
+      Array.prototype.forEach.call(elements, function(el, i){
+        el.addEventListener('click', function(event) {
+          var currentTag = el.getAttribute('data-tag'),
+              index = document.getElementById('index');
+          index.className = '';
+          if (currentTag != 'any') {
+            index.classList.add('js-filtered');
+            index.classList.add(currentTag);
+          }
+        });
+      });
     });
 
     // Render out the filters
