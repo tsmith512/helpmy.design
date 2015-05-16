@@ -1,8 +1,9 @@
 @import 'config/config';
 
-@import 'global/normalize.css';
+@import 'global/normalize';
 @import 'global/extendables';
 @import 'global/type';
 
 @import 'components/body';
+@import 'components/index';
 @import 'components/article';

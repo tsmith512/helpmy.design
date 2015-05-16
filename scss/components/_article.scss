@@ -6,7 +6,6 @@ article {
   background: $black;
   padding: 1em;
   padding-bottom: (1 - 0.825em);
-  margin: 1em auto;
   @include border-radius(8px);
 
   h1 {
