@@ -58,6 +58,7 @@
           var currentTag = el.getAttribute('data-tag'),
               index = document.getElementById('index');
           index.className = '';
+          window.location.hash = (currentTag != 'any') ? currentTag : '';
           if (currentTag != 'any') {
             index.classList.add('js-filtered');
             index.classList.add(currentTag);
@@ -74,6 +75,7 @@
         var currentTag = event.target.value,
             index = document.getElementById('index');
         index.className = '';
+        window.location.hash = (currentTag != 'any') ? currentTag : '';
         if (currentTag != 'any') {
           index.classList.add('js-filtered');
           index.classList.add(currentTag);
