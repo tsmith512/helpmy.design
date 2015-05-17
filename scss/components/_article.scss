@@ -3,10 +3,26 @@
  * Each article teaser on the index
  */
 article {
+  position: relative;
+  overflow: hidden;
   background: $black;
   padding: 1em;
+  padding-top: 1.5em;
   padding-bottom: (1 - 0.825em);
   @include border-radius(8px);
+
+  &:before {
+    position: absolute;
+    display: block;
+    content: "";
+    height: 0.5em;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  &.article:before { background: hmd-color($blue, main); }
+  &.resource:before { background: hmd-color($green, main); }
 
   h1 {
     margin: 0 0 0.5em 0;
