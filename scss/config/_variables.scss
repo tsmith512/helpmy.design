@@ -37,10 +37,13 @@ $courier:         "Courier New", "DejaVu Sans Mono", monospace, sans-serif;
 
 // Project-specific fonts
 // Put any font families here that are specific to your project.
+$montserrat:       'Montserrat', $helvetica;
+$play:             'Play', $helvetica;
+$opensans:         'Open Sans', $helvetica;
 
 // Now create some variables for the font stacks we want to use on this site.
 $base-font-family: $helvetica; // The font family set on the html element.
-$font-body:        $helvetica;
+$font-body:        $opensans;
 $font-monospace:   $courier;
 $form-font-family: $helvetica;
 

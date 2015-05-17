@@ -34,6 +34,7 @@ article {
   h1 {
     margin: 0 0 0.5em 0;
     font-size: 1em;
+    font-family: $montserrat;
 
     a {
       &, &:link { color: hmd-color($grey, 'white', -5%); }
@@ -53,6 +54,7 @@ article {
     padding-left: 2em;
     color: hmd-color($grey, 'highlight');
     @include text-shadow(1px 1px 0 rgb(0,0,0));
+    @include transition(color .2s ease-out);
     background: {
       position: center left;
       size: 1em 1em;
@@ -67,6 +69,10 @@ article {
     &:not(:last-child) {
       border-bottom: 1px dotted hmd-color($grey, 'dark');
     }
+  }
+
+  #{nest("&:hover", ".author, .year, .tags")} {
+    color: hmd-color($grey, 'highlight', 5%);
   }
 
   .author {

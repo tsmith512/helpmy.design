@@ -15,22 +15,28 @@
     padding: 1em;
     background: transparent;
     @include transition(background .1s ease-out);
+    font-family: $play;
   }
 
   .types {
-    border-bottom: 2px solid hmd-color($grey, 'highlight', -5%);
+    border-bottom: 2px solid hmd-color($grey, 'main', -5%);
   }
 
   .type {
-    background-color: hmd-color($grey, 'highlight', 10%);
-    border-left: 1px solid hmd-color($grey, 'highlight', 5%);
-    border-right: 1px solid hmd-color($grey, 'highlight', 15%);
-    &:hover { background-color: hmd-color($grey, 'highlight', 15%); }
+    background-color: hmd-color($grey, 'main', 10%);
+    border-left: 1px solid hmd-color($grey, 'main', 5%);
+    border-right: 1px solid hmd-color($grey, 'main', 15%);
+    &:hover { background-color: hmd-color($grey, 'main', 15%); }
     color: hmd-color($grey, 'dark');
-    @include text-shadow(1px 1px 0 hmd-color($grey, 'highlight', 15%));
+    @include text-shadow(1px 1px 0 hmd-color($grey, 'dark', -5%));
+    font-weight: bold;
 
     width: 33.3%;
     float: left;
+
+    &.type-article { color: hmd-color($blue, main); }
+    &.type-resource { color: hmd-color($green, main); }
+    &.type-style-guide { color: hmd-color($orange, main); }
   }
 
   .tag {
