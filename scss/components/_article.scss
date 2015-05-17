@@ -23,15 +23,16 @@ article {
 
   &.article:before { background: hmd-color($blue, main); }
   &.resource:before { background: hmd-color($green, main); }
+  &.style-guide:before { background: hmd-color($orange, main); }
 
   h1 {
     margin: 0 0 0.5em 0;
     font-size: 1em;
 
     a {
-      &, &:link { color: $white; }
+      &, &:link { color: hmd-color($grey, 'white', -5%); }
       &:visited { color: hmd-color($grey, 'highlight', 5%); }
-      &:hover, &:active { color: $link; }
+      &:hover, &:active { color: white; }
       @include underline($background: $black, $color: hmd-color($grey, 'bright'), $distance: 0.9875, $width: 1);
     }
   }

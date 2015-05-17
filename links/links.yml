@@ -176,3 +176,31 @@ links:
     url:   'http://subtlepatterns.com/'
     desc:  'Free, very high quality repeating textures and patterns'
     tags:  [design, patterns, 'free-stuff']
+  - title: 'The Style Guide Guide'
+    type:  'resource'
+    url:   'http://vinspee.me/style-guide-guide'
+    desc:  'A repository of style guide generators by platform'
+    tags:  [frontend]
+  - title: 'A Pattern Library'
+    type:  'style-guide'
+    url:   'http://patterns.alistapart.com/'
+    desc:  'Style guide for <em>A List Apart</em>'
+    tags:  [design]
+  - title: 'GitHub Style Guide'
+    type:  'style-guide'
+    url:   'http://primercss.io/'
+    tags:  [design]
+  - title: 'Starbucks Style Guide'
+    type:  'style-guide'
+    url:   'http://www.starbucks.com/static/reference/styleguide/'
+    desc:  'Pretty technical and layout oriented'
+    tags:  [design]
+  - title: 'Voice & Tone'
+    type:  'style-guide'
+    url:   'http://voiceandtone.com/'
+    desc:  "MailChimp's writing style guide, a great presentation"
+    tags:  [design, writing]
+  - title: 'Yelp Style Guide'
+    type:  'style-guide'
+    url:   'http://www.yelp.com/styleguide'
+    tags:  [design]
