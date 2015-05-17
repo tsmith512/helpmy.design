@@ -21,9 +21,9 @@ article {
     right: 0;
   }
 
-  &.article:before { background: hmd-color($blue, main); }
-  &.resource:before { background: hmd-color($green, main); }
-  &.style-guide:before { background: hmd-color($orange, main); }
+  &.type-article:before { background: hmd-color($blue, main); }
+  &.type-resource:before { background: hmd-color($green, main); }
+  &.type-style-guide:before { background: hmd-color($orange, main); }
 
   h1 {
     margin: 0 0 0.5em 0;
