@@ -1,0 +1,30 @@
+/**
+ * @file _filters.scss
+ */
+#filters {
+  @extend %clearfix;
+  background: hmd-color($grey, 'dark', -10%);
+
+  button {
+    display: block;
+    border: 0;
+    padding: 1em;
+    background: transparent;
+  }
+
+  .type {
+    background-color: hmd-color($grey, 'highlight', 10%);
+    color: hmd-color($grey, 'dark');
+    @include text-shadow(1px 1px 0 hmd-color($grey, 'highlight', 15%));
+
+    width: 33.3%;
+    float: left;
+  }
+
+  .tag {
+    color: hmd-color($grey, 'highlight');
+    width: 50%;
+    float: left;
+    border-bottom: 1px solid $black;
+  }
+}

@@ -1,6 +1,10 @@
-{@iterate key=types sort="asc"}
-  <button data-filter="type-{$key}" class="type type-{$key}">{$key} ({$value})</button>
-{/iterate}
-{@iterate key=tags sort="asc"}
-  <button data-filter="tag-{$key}" class="tag tag-{$key}">{$key} ({$value})</button>
-{/iterate}
+<div class="types">
+  {@iterate key=types sort="asc"}
+    <button data-filter="type-{$key}" class="type type-{$key}">{$key} ({$value})</button>
+  {/iterate}
+</div>
+<div class="tags">
+  {@iterate key=tags sort="asc"}
+    <button data-filter="tag-{$key}" class="tag tag-{$key}">{$key} ({$value})</button>
+  {/iterate}
+</div>

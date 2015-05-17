@@ -2,6 +2,24 @@
  * @file _body.scss
  */
 body {
+  position: relative;
   background: hmd-color($grey, 'dark');
   color: $white;
+}
+
+main {
+  @extend %flexbox-defaults;
+
+  > div {
+    @extend %flexbox-defaults-items;
+    min-height: 100vh;
+  }
+
+  #filters {
+    width: calc(25% - 0.5em);
+  }
+
+  #index {
+    width: calc(75% - 0.5em);
+  }
 }
