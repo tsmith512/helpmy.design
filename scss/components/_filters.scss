@@ -5,15 +5,27 @@
   @extend %clearfix;
   background: hmd-color($grey, 'dark', -10%);
 
+  .types, .tags {
+    @extend %clearfix;
+  }
+
   button {
     display: block;
     border: 0;
     padding: 1em;
     background: transparent;
+    @include transition(background .1s ease-out);
+  }
+
+  .types {
+    border-bottom: 2px solid hmd-color($grey, 'highlight', -5%);
   }
 
   .type {
     background-color: hmd-color($grey, 'highlight', 10%);
+    border-left: 1px solid hmd-color($grey, 'highlight', 5%);
+    border-right: 1px solid hmd-color($grey, 'highlight', 15%);
+    &:hover { background-color: hmd-color($grey, 'highlight', 15%); }
     color: hmd-color($grey, 'dark');
     @include text-shadow(1px 1px 0 hmd-color($grey, 'highlight', 15%));
 
@@ -23,8 +35,10 @@
 
   .tag {
     color: hmd-color($grey, 'highlight');
+    background: hmd-color($grey, 'dark', -10%);
+    &:hover { background-color: hmd-color($grey, 'dark', -15%); }
     width: 50%;
     float: left;
-    border-bottom: 1px solid $black;
+    border-bottom: 1px solid hmd-color($grey, 'dark', -5%);
   }
 }

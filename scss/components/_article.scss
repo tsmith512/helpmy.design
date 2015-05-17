@@ -6,10 +6,12 @@ article {
   position: relative;
   overflow: hidden;
   background: $black;
+  &:hover { background: hmd-color($grey, 'black', -5%); }
   padding: 1em;
   padding-top: 1.5em;
   padding-bottom: (1 - 0.825em);
   @include border-radius(8px);
+  @include transition(background .2s ease-out);
 
   &:before {
     position: absolute;
@@ -19,11 +21,15 @@ article {
     top: 0;
     left: 0;
     right: 0;
+    @include transition(background .2s ease-out);
   }
 
   &.type-article:before { background: hmd-color($blue, main); }
+  &.type-article:hover:before { background: hmd-color($blue, bright); }
   &.type-resource:before { background: hmd-color($green, main); }
+  &.type-resource:hover:before { background: hmd-color($green, bright); }
   &.type-style-guide:before { background: hmd-color($orange, main); }
+  &.type-style-guide:hover:before { background: hmd-color($orange, bright); }
 
   h1 {
     margin: 0 0 0.5em 0;
