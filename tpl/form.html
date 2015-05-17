@@ -1,15 +1,6 @@
-<select name="filter-tag" id="filter-tag">
-  <option selected value="any">- Filter -</option>
-  {@iterate key=tags sort="asc"}
-    <option value="tag-{$key}">{$key} ({$value})</option>
-    {$key}:{$value} {$type}
-  {/iterate}
-</select>
-
-<select name="filter-type" id="filter-type">
-  <option selected value="any">- Filter -</option>
-  {@iterate key=types sort="asc"}
-    <option value="type-{$key}">{$key} ({$value})</option>
-    {$key}:{$value} {$type}
-  {/iterate}
-</select>
+{@iterate key=types sort="asc"}
+  <button data-filter="type-{$key}" class="type type-{$key}">{$key} ({$value})</button>
+{/iterate}
+{@iterate key=tags sort="asc"}
+  <button data-filter="tag-{$key}" class="tag tag-{$key}">{$key} ({$value})</button>
+{/iterate}

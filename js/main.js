@@ -86,10 +86,10 @@
     dust.render('form.html', {'tags':tags, 'types': types}, function(err, out) {
       document.getElementById('filters').innerHTML = out;
 
-      var filters = document.querySelectorAll('select');
+      var filters = document.querySelectorAll('button');
       Array.prototype.forEach.call(filters, function(el, i){
-        el.addEventListener('change', function(event) {
-          var currentFilter = event.target.value,
+        el.addEventListener('click', function(event) {
+          var currentFilter = event.target.getAttribute('data-filter'),
               index = document.getElementById('index');
           index.className = '';
           window.location.hash = (currentFilter != 'any') ? currentFilter : '';
