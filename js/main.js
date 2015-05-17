@@ -5,9 +5,9 @@
 
   var presentArticles = function(data) {
 
-    // Sort all articles by title
+    // Sort all links by title
     // @TODO: This would be better done server-side when the index is processed
-    data.articles.sort(function(a, b){
+    data.links.sort(function(a, b){
       var titleA = a.title.toLowerCase().replace(/^(a(n)?|the) /, ''),
           titleB = b.title.toLowerCase().replace(/^(a(n)?|the) /, '');
 
@@ -17,12 +17,12 @@
     });
 
     // Process each article
-    data.articles.forEach(function(item, i){
+    data.links.forEach(function(item, i){
 
       // Add an ID to each
       item.id = i;
 
-      // Aggregate tags across all articles so we have a count of each
+      // Aggregate tags across all links so we have a count of each
       item.tags.forEach(function(tag, x){
         if (tag in tags) {
           tags[tag]++
@@ -87,7 +87,7 @@
 
   // Load the Articles
   var request = new XMLHttpRequest();
-  request.open('GET', '/js/articles.json', true);
+  request.open('GET', '/js/links.json', true);
 
   request.onload = function() {
     if (this.status >= 200 && this.status < 400) {

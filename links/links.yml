@@ -1,103 +1,178 @@
-articles:
+links:
   - title: '16 Pixels: For Body Copy. Anything Less Is A Costly Mistake'
+    type:  'article'
     url:   'http://www.smashingmagazine.com/2011/10/07/16-pixels-body-copy-anything-less-costly-mistake/'
     by:    'Smashing Magazine'
     year:  2011
     tags:  [ux, typography]
   - title: 'Accordions Are Not Always the Answer for Complex Content on Desktops'
+    type:  'article'
     url:   'http://www.nngroup.com/articles/accordions-complex-content/'
     by:    'Nielsen Norman Group'
     year:   2014
     tags:  [ux, desktop, accordions]
   - title: 'Auto-Forwarding Carousels and Accordions Annoy Users and Reduce Visibility'
+    type:  'article'
     url:   'http://www.nngroup.com/articles/auto-forwarding/'
     by:    'Nielsen Norman Group'
     year:  2013
     tags:  [ux, carousels, accordions, visibility]
   - title: 'Avoid Category Names That Suck'
+    type:  'article'
     url:   'http://www.nngroup.com/articles/category-names-suck/'
     by:    'Nielsen Norman Group'
     tags:  [ux, writing, taxonomy, navigation]
   - title: 'Avoid Format-Based Primary Navigation'
+    type:  'article'
     url:   'http://www.nngroup.com/articles/format-based-navigation/'
     by:    'Nielsen Norman Group'
     year:  2014
     tags:  [ux, navigation, taxonomy]
   - title: 'Avoid Inline Scrolling Areas'
+    type:  'article'
     url:   'http://baymard.com/blog/inline-scroll-areas'
     by:    'Baymard Institute'
     tags:  [ux, scrolling]
   - title: 'Beware Horizontal Scrolling and Mimicking Swipe on Desktop'
+    type:  'article'
     url:   'http://www.nngroup.com/articles/horizontal-scrolling/'
     by:    'Nielsen Norman Group'
     tags:  [ux, scrolling, desktop]
   - title: 'Breadcrumbs in Web Design: Examples and Best Practices'
+    type:  'article'
     url:   'http://www.smashingmagazine.com/2009/03/17/breadcrumbs-in-web-design-examples-and-best-practices/'
     by:    'Smashing Magazine'
     year:  2009
     tags:  [ux, navigation, writing, breadcrumbs]
   - title: 'Breadcrumb Navigation Increasingly Useful'
+    type:  'article'
     url:   'http://www.nngroup.com/articles/breadcrumb-navigation-useful/'
     by:    'Nielsen Norman Group'
     year:  2007
     tags:  [ux, breadcrumbs, navigation]
   - title: 'Designing Effective Carousels: Create a Fanciful Amusement, Not a House of Horrors'
+    type:  'article'
     url:   'http://www.nngroup.com/articles/designing-effective-carousels/'
     by:    'Nielsen Norman Group'
     year:  2013
     tags:  [ux, carousels]
   - title: 'Fight Against "Right-Rail Blindness"'
+    type:  'article'
     url:   'http://www.nngroup.com/articles/fight-right-rail-blindness/'
     by:    'Nielsen Norman Group'
     tags:  [ux, sidebars, visibility]
   - title: 'Four Dangerous Navigation Approaches that Can Increase Cognitive Strain'
+    type:  'article'
     url:   'http://www.nngroup.com/articles/navigation-cognitive-strain/'
     by:    'Nielsen Norman Group'
     tags:  [ux, navigation, writing]
   - title: 'Image-Focused Design: Is Bigger Better?'
+    type:  'article'
     url:   'http://www.nngroup.com/articles/image-focused-design/'
     by:    'Nielsen Norman Group'
     year:  2014
     tags:  [ux, images]
   - title: 'Infinite Scrolling Is Not for Every Website'
+    type:  'article'
     url:   'http://www.nngroup.com/articles/infinite-scrolling/'
     by:    'Nielsen Norman Group'
     tags:  [ux, scrolling]
   - title: 'Killing Off the Global Navigation: One Trend to Avoid'
+    type:  'article'
     url:   'http://www.nngroup.com/articles/killing-global-navigation-one-trend-avoid/'
     by:    'Nielsen Norman Group'
     tags:  [ux, navigation]
   - title: 'The Magnifying Glass Icon in Search Design: Pros and Cons'
+    type:  'article'
     url:   'http://www.nngroup.com/articles/magnifying-glass-icon/'
     by:    'Nielsen Norman Group'
     tags:  [ux, iconography, internationalization]
   - title: 'Placeholders in Form Fields Are Harmful'
+    type:  'article'
     url:   'http://www.nngroup.com/articles/form-design-placeholders'
     by:    'Nielsen Norman Group'
     year:  2014
     tags:  [ux, forms]
   - title: 'Should I Use a Carousel?'
+    type:  'article'
     url:   'http://shouldiuseacarousel.com/'
     tags:  [ux, carousels]
   - title: 'Best Practices of Combining Typefaces'
+    type:  'article'
     url:   'http://www.smashingmagazine.com/2010/11/04/best-practices-of-combining-typefaces/'
     by:    'Smashing Magazine'
     tags:  [design, typography]
   - title: 'Contrast Rebellion'
+    type:  'article'
     url:   'http://contrastrebellion.com/'
     tags:  [ux, design, typography, accessibility, usability]
   - title: 'Why Your Links Should Never Say "Click Here"'
+    type:  'article'
     url:   'http://uxmovement.com/content/why-your-links-should-never-say-click-here/'
     by:    'UX Movement'
     year:  2012
     tags:  [ux, writing, outdated, accessibility, usability]
   - title: 'Break Grammar Rules on Websites for Clarity'
+    type:  'article'
     url:   'http://www.nngroup.com/articles/break-grammar-rules/'
     by:    'Nielsen Norman Group'
     year:  2014
     tags:  [ux, writing, usability]
   - title: 'Really Break Grammar Rules on Websites: Part Two'
+    type:  'article'
     url:   'http://www.nngroup.com/articles/really-break-grammar-rules/'
     by:    'Nielsen Norman Group'
     year:  2014
     tags:  [ux, writing, usability]
+  - title: 'Color Contrast Checker'
+    type:  'resource'
+    url:   'http://webaim.org/resources/contrastchecker/'
+    desc:  'Test background and text colors for adequate contrast and WCAG AA or WCAG AAA compliance.'
+    by:    'WebAIM'
+    tags:  [accessibility, design, legibility]
+  - title: ':nth-child Tester'
+    type:  'resource'
+    url:   'http://css-tricks.com/examples/nth-child-tester/'
+    by:    'CSS Tricks,  Chris Coyier'
+    desc:  'Playground for figuring out nth-child selectors'
+    tags:  [development, css, frontend]
+  - title: 'amp-what'
+    type:  'resource'
+    url:   'http://amp-what.com/'
+    desc:  'HTML entity character map lookup'
+    tags:  [development, typography]
+  - title: 'DataURL.net'
+    type:  'resource'
+    url:   'http://dataurl.net/'
+    desc:  'Create dataURL strings from images'
+    tags:  [development, frontend]
+  - title: 'Regexper'
+    type:  'resource'
+    url:   'http://www.regexper.com/'
+    desc:  'Visualize regular expressions'
+    tags:  [development, js]
+  - title: 'Unheap'
+    type:  'resource'
+    url:   'http://www.unheap.com'
+    desc:  'jQuery plugins library'
+    tags:  [development, js]
+  - title: 'Iconmonstr'
+    type:  'resource'
+    url:   'http://iconmonstr.com/'
+    desc:  'Free icons in and SVG and PNG. (Used here on helpmy.design!)'
+    tags:  [iconography, typography, 'free-stuff', design]
+  - title: 'Noise Texture Generator'
+    type:  'resource'
+    url:   'http://www.noisetexturegenerator.com/'
+    desc:  'Generates noise in PNGs for patterns; provides repeating sample. <em>(Tip: Inspect Element to get the image as a dataURI.)</em>'
+    tags:  [design, patterns, 'free-stuff']
+  - title: 'Patternify'
+    type:  'resource'
+    url:   'http://www.patternify.com/'
+    desc:  'Repeating pattern and dataURI generator'
+    tags:  [design, patterns]
+  - title: 'Subtle Patterns'
+    type:  'resource'
+    url:   'http://subtlepatterns.com/'
+    desc:  'Free, very high quality repeating textures and patterns'
+    tags:  [design, patterns, 'free-stuff']

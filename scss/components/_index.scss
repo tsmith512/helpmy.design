@@ -29,19 +29,19 @@
   article {
     margin: 0.5em;
     @include breakpoint(480px) {
-      max-width: calc(50% - 1em);
+      width: calc(50% - 1em);
     }
     @include breakpoint(720px) {
-      max-width: calc(33.3% - 1em);
+      width: calc(33.3% - 1em);
     }
     @include breakpoint(960px) {
-      max-width: calc(25% - 1em);
+      width: calc(25% - 1em);
     }
     -webkit-box-flex: 1;
     -moz-box-flex: 1;
-    -webkit-flex: 1 1 auto;
-    -ms-flex: 1 1 auto;
-    flex: 1 1 auto;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
     -webkit-align-self: auto;
     -ms-flex-item-align: auto;
     align-self: auto;

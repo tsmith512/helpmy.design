@@ -18,22 +18,9 @@
 
 ## Accessibility Resources
 
-- [Color Contrast Checker](http://webaim.org/resources/contrastchecker/), WebAIM: Color contrast calculator
-
 ## Development Resources
 
-- [:nth-child Tester](http://css-tricks.com/examples/nth-child-tester/), CSS Tricks: Playground for figuring out nth-child selectors
-- [amp-what](http://amp-what.com/): HTML entity character map lookup
-- [DataURL.net](http://dataurl.net/): Create dataURL strings from images
-- [Regexper](http://www.regexper.com/): Visualize regular expressions
-- [Unheap](http://www.unheap.com): jQuery plugins library
-
 ## Design Resources
-
-- [Iconmonstr](http://iconmonstr.com/): Icons in SVG and PNG, free-to-use, searchable
-- [Noise Texture Generator](http://www.noisetexturegenerator.com/): Generates noise in PNGs for patterns; provides repeating sample. _Tip: Inspect Element to get the image as a dataURI._
-- [Patternify](http://www.patternify.com/): Repeating pattern and dataURI generator
-- [Subtle Patterns](http://subtlepatterns.com/): Downloadable 200x200 repeatable textures/patterns, very high quality.
 
 ### Style Guides
 
