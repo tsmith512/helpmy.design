@@ -28,8 +28,8 @@ article {
   &.type-article:hover:before { background: hmd-color($blue, bright); }
   &.type-resource:before { background: hmd-color($green, main); }
   &.type-resource:hover:before { background: hmd-color($green, bright); }
-  &.type-style-guide:before { background: hmd-color($orange, main); }
-  &.type-style-guide:hover:before { background: hmd-color($orange, bright); }
+  &.type-styleguide:before { background: hmd-color($orange, main); }
+  &.type-styleguide:hover:before { background: hmd-color($orange, bright); }
 
   h1 {
     margin: 0 0 0.5em 0;

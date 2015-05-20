@@ -86,7 +86,7 @@ links:
     type:  'article'
     url:   'http://www.nngroup.com/articles/magnifying-glass-icon/'
     by:    'Nielsen Norman Group'
-    tags:  [ux, iconography, internationalization]
+    tags:  [ux, iconography, i18n]
   - title: 'Placeholders in Form Fields Are Harmful'
     type:  'article'
     url:   'http://www.nngroup.com/articles/form-design-placeholders'
@@ -182,25 +182,25 @@ links:
     desc:  'A repository of style guide generators by platform'
     tags:  [frontend]
   - title: 'A Pattern Library'
-    type:  'style-guide'
+    type:  'styleguide'
     url:   'http://patterns.alistapart.com/'
     desc:  'Style guide for <em>A List Apart</em>'
     tags:  [design]
   - title: 'GitHub Style Guide'
-    type:  'style-guide'
+    type:  'styleguide'
     url:   'http://primercss.io/'
     tags:  [design]
   - title: 'Starbucks Style Guide'
-    type:  'style-guide'
+    type:  'styleguide'
     url:   'http://www.starbucks.com/static/reference/styleguide/'
     desc:  'Pretty technical and layout oriented'
     tags:  [design]
   - title: 'Voice & Tone'
-    type:  'style-guide'
+    type:  'styleguide'
     url:   'http://voiceandtone.com/'
     desc:  "MailChimp's writing style guide, a great presentation"
     tags:  [design, writing]
   - title: 'Yelp Style Guide'
-    type:  'style-guide'
+    type:  'styleguide'
     url:   'http://www.yelp.com/styleguide'
     tags:  [design]
