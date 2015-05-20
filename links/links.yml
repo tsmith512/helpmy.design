@@ -124,6 +124,12 @@ links:
     by:    'Nielsen Norman Group'
     year:  2014
     tags:  [ux, writing, usability]
+  - title: 'Rotating Offers – the Scourge of Home Page Design'
+    type:  'article'
+    url:   'http://www.widerfunnel.com/conversion-rate-optimization/rotating-offers-the-scourge-of-home-page-design'
+    by:    'Wider Funnel'
+    year:  2013
+    tags:  [ux, carousels]
   - title: 'Color Contrast Checker'
     type:  'resource'
     url:   'http://webaim.org/resources/contrastchecker/'
@@ -161,11 +167,22 @@ links:
     url:   'http://iconmonstr.com/'
     desc:  'Free icons in and SVG and PNG. (Used here on helpmy.design!)'
     tags:  [iconography, typography, 'free-stuff', design]
+  - title: 'The Noun Project'
+    type:  'resource'
+    url:   'https://thenounproject.com/'
+    desc:  'High quality icons in many styles covering many topics in raster or vector formats. Some are free, many are not.'
+    tags:  [iconography, design]
   - title: 'Noise Texture Generator'
     type:  'resource'
+    tags:  [iconography, 'free-stuff', design]
     url:   'http://www.noisetexturegenerator.com/'
     desc:  'Generates noise in PNGs for patterns; provides repeating sample. <em>(Tip: Inspect Element to get the image as a dataURI.)</em>'
     tags:  [design, patterns, 'free-stuff']
+  - title: 'ColourLovers'
+    type:  'resource'
+    desc:  'Browse, create, and share colors, palettes, and patterns.'
+    url:   'http://www.colourlovers.com/'
+    tags:  [color, patterns, design, 'free-stuff']
   - title: 'Patternify'
     type:  'resource'
     url:   'http://www.patternify.com/'
@@ -181,6 +198,11 @@ links:
     url:   'http://vinspee.me/style-guide-guide'
     desc:  'A repository of style guide generators by platform'
     tags:  [frontend]
+  - title: 'Pexels'
+    type:  'resource'
+    url:   'http://www.pexels.com/'
+    desc:  'Over 2,000 high-quality photos free for personal or commercial use (CC0 license).'
+    tags:  [images, 'free-stuff']
   - title: 'A Pattern Library'
     type:  'styleguide'
     url:   'http://patterns.alistapart.com/'
@@ -204,3 +226,17 @@ links:
     type:  'styleguide'
     url:   'http://www.yelp.com/styleguide'
     tags:  [design]
+  - title: 'Code for America'
+    type:  'styleguide'
+    desc:  'Styleguide for Code for America'
+    tags:  [design, color, iconography]
+  - title: 'Mapbox'
+    type:  'styleguide'
+    desc:  'Mapbox styleguide'
+    url:   'https://www.mapbox.com/base/'
+    tags:  [design]
+  - title: 'Salesforce1'
+    type:  'styleguide'
+    desc:  'Styleguide for Salesforce1 platform applications'
+    url:   'http://sfdc-styleguide.herokuapp.com/'
+    tags:  [design, iconography, typography]
