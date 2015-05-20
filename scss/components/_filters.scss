@@ -5,12 +5,29 @@
   @extend %clearfix;
   background: hmd-color($grey, 'dark', -10%);
 
+  h1 {
+    display: block;
+    height: 0;
+    max-width: 320px;
+    margin: 16px auto;
+    padding-bottom: 28%;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    background: {
+      image: url('../gfx/logo.svg');
+      position: center center;
+      repeat: no-repeat;
+      size: contain;
+    }
+  }
+
   .types, .tags {
     @extend %clearfix;
   }
 
   button {
-    display: block;
+    width: 100%;
     border: 0;
     padding: 1em;
     background: transparent;
