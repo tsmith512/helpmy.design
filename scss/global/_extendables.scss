@@ -7,7 +7,7 @@
 	@include clearfix;
 }
 
-%flexbox-defaults {
+@mixin flexbox-defaults {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -32,13 +32,21 @@
   align-items: stretch;
 }
 
-%flexbox-defaults-items {
+%flexbox-defaults {
+  @include flexbox-defaults;
+}
+
+@mixin flexbox-defaults-items {
   -webkit-box-flex: 1;
   -moz-box-flex: 1;
-  -webkit-flex: 0 1 auto;
-  -ms-flex: 0 1 auto;
-  flex: 0 1 auto;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
   -webkit-align-self: auto;
   -ms-flex-item-align: auto;
   align-self: auto;
+}
+
+%flexbox-defaults-items {
+  @include flexbox-defaults-items;
 }

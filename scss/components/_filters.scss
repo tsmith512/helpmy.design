@@ -20,31 +20,53 @@
 
   .types {
     border-bottom: 2px solid hmd-color($grey, 'main', -5%);
+
+    @include breakpoint(960px) {
+      @include flexbox-defaults;
+    }
   }
 
   .type {
     background-color: hmd-color($grey, 'main', 10%);
-    border-left: 1px solid hmd-color($grey, 'main', 5%);
-    border-right: 1px solid hmd-color($grey, 'main', 15%);
+
+    @include breakpoint(max-width 1519px) {
+      border-top: 1px solid hmd-color($grey, 'main', 5%);
+      border-bottom: 1px solid hmd-color($grey, 'main', 15%);
+    }
+    @include breakpoint(1520px) {
+      @include flexbox-defaults-items;
+      border-left: 1px solid hmd-color($grey, 'main', 5%);
+      border-right: 1px solid hmd-color($grey, 'main', 15%);
+      width: 33.333%;
+    }
+
     &:hover { background-color: hmd-color($grey, 'main', 15%); }
     color: hmd-color($grey, 'dark');
     @include text-shadow(1px 1px 0 hmd-color($grey, 'dark', -5%));
     font-weight: bold;
 
-    width: 33.3%;
-    float: left;
-
     &.type-article { color: hmd-color($blue, main); }
     &.type-resource { color: hmd-color($green, main); }
-    &.type-style-guide { color: hmd-color($orange, main); }
+    &.type-styleguide { color: hmd-color($orange, main); }
+  }
+
+  .tags {
+    @extend %flexbox-defaults;
   }
 
   .tag {
+    @extend %flexbox-defaults-items;
     color: hmd-color($grey, 'highlight');
     background: hmd-color($grey, 'dark', -10%);
     &:hover { background-color: hmd-color($grey, 'dark', -15%); }
-    width: 50%;
-    float: left;
     border-bottom: 1px solid hmd-color($grey, 'dark', -5%);
+
+    @include breakpoint(max-width 679px) {
+      width: auto;
+    }
+
+    @include breakpoint(960px) {
+      width: 50%;
+    }
   }
 }

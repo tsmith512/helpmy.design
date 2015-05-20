@@ -8,18 +8,28 @@ body {
 }
 
 main {
-  @extend %flexbox-defaults;
+  // The two-column setup
+  @include breakpoint(680px) {
+    @include flexbox-defaults;
 
-  > div {
-    @extend %flexbox-defaults-items;
-    min-height: 100vh;
-  }
+    > div {
+      @include flexbox-defaults-items;
+    }
 
-  #filters {
-    width: calc(25% - 0.5em);
-  }
+    #filters {
+      width: calc(25% - 0.5em);
+      max-width: 350px;
+      -webkit-align-self: stretch;
+      -ms-flex-item-align: stretch;
+      align-self: stretch;
+      min-height: 100vh;
+    }
 
-  #index {
-    width: calc(75% - 0.5em);
+    #index {
+      width: calc(75% - 0.5em);
+      -webkit-align-self: flex-start;
+      -ms-flex-item-align: start;
+      align-self: flex-start;
+    }
   }
 }

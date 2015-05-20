@@ -2,22 +2,23 @@
  * @file _index.scss
  */
 #index {
-  @extend %flexbox-defaults;
   padding: 0.5em;
 
-  article {
-    @extend %flexbox-defaults-items;
+  @include breakpoint(720px) {
+    @include flexbox-defaults;
+  }
 
+  article {
     margin: 0.5em;
-    @include breakpoint(480px) {
+    @include breakpoint(720px) {
+      @include flexbox-defaults-items;
       width: calc(50% - 1em);
     }
-    @include breakpoint(720px) {
+    @include breakpoint(920px) {
       width: calc(33.3% - 1em);
     }
-    @include breakpoint(960px) {
+    @include breakpoint(1280px) {
       width: calc(25% - 1em);
     }
-
   }
 }
