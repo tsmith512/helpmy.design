@@ -105,13 +105,13 @@ links:
   - title: 'Contrast Rebellion'
     type:  'article'
     url:   'http://contrastrebellion.com/'
-    tags:  [ux, design, typography, accessibility, usability]
+    tags:  [ux, design, typography, accessibility, usability, color]
   - title: 'Why Your Links Should Never Say "Click Here"'
     type:  'article'
     url:   'http://uxmovement.com/content/why-your-links-should-never-say-click-here/'
     by:    'UX Movement'
     year:  2012
-    tags:  [ux, writing, outdated, accessibility, usability]
+    tags:  [ux, writing, accessibility, usability, navigation]
   - title: 'Break Grammar Rules on Websites for Clarity'
     type:  'article'
     url:   'http://www.nngroup.com/articles/break-grammar-rules/'
@@ -130,12 +130,45 @@ links:
     by:    'Wider Funnel'
     year:  2013
     tags:  [ux, carousels]
+  - title: 'Password Creation: 3 Ways To Make It Easier'
+    type:  'article'
+    url:   'http://www.nngroup.com/articles/password-creation/'
+    by:    'Nielsen Norman Group'
+    year:  2015
+    tags:  [ux, passwords, forms]
+  - title: 'Color Contrast for Better Readability'
+    type:  'article'
+    url:   'http://viget.com/inspire/color-contrast'
+    year:  2015
+    by:    'Tom Osborne, Viget'
+    tags:  [legibility, accessibility, color]
+  - title: 'Why and How to Avoid Hamburger Menus'
+    type:  'article'
+    url:   'https://lmjabreu.com/post/why-and-how-to-avoid-hamburger-menus/'
+    by:    'Luis Abreu'
+    tags:  [navigation, sidebars, usability]
+  - title: "Myth #3: People Don't Scroll"
+    type:  'article'
+    url:   'http://uxmyths.com/post/654047943/myth-people-dont-scroll'
+    by:    'UXMyths'
+    tags:  [ux, scrolling]
+  - title: 'Everybody Scrolls.'
+    type:  'article'
+    url:   'http://www.hugeinc.com/ideas/perspective/everybody-scrolls'
+    by:    'HUGE'
+    year:  2014
+    tags:  [ux, scrolling]
+  - title: 'Life Below 600px'
+    type:  'article'
+    url:   'http://www.iampaddy.com/lifebelow600/'
+    by:    'Paddy Donnelly, Lefft'
+    tags:  [ux, scrolling]
   - title: 'Color Contrast Checker'
     type:  'resource'
     url:   'http://webaim.org/resources/contrastchecker/'
     desc:  'Test background and text colors for adequate contrast and WCAG AA or WCAG AAA compliance.'
     by:    'WebAIM'
-    tags:  [accessibility, design, legibility]
+    tags:  [accessibility, design, legibility, color]
   - title: ':nth-child Tester'
     type:  'resource'
     url:   'http://css-tricks.com/examples/nth-child-tester/'
