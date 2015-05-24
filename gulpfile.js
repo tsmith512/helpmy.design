@@ -34,24 +34,33 @@ gulp.task('sass', function () {
   .pipe(gulp.dest('./_dist/css'));
 });
 
+// Gather library/vendor JS
+gulp.task('js', function () {
+  return gulp.src([
+    'js/vendor/dustjs/dist/dust-full.js',
+    'js/vendor/dust-helpers/dist/dust-helpers.js',
+    'js/vendor/dust-motes/src/helpers/control/iterate/iterate.js',
+  ])
+    .pipe(concat('lib.js'))
+    .pipe(gulp.dest('_dist/js'));
+})
+
 // For Dev, just copy the HTML, JS, and CSS straight to the build directory
 gulp.task('dev', function() {
   gulp.src('*.html')
     .pipe(gulp.dest('_dist/'));
-  gulp.src('js/**/*.js')
-    .pipe(gulp.dest('_dist/js/'));
   gulp.src('img/**/*.*')
     .pipe(gulp.dest('_dist/gfx/'));
 });
 
 // Static Server + watching scss/html files
-gulp.task('serve', ['index', 'dust-templates', 'dev', 'sass'], function() {
+gulp.task('serve', ['index', 'dust-templates', 'js', 'dev', 'sass'], function() {
 
   browserSync.init({
     server: "_dist"
   });
 
-  gulp.watch("js/**/*.js", ['dev']);
+  gulp.watch("js/**/*.js", ['js']);
   gulp.watch("*.html", ['dev']);
   gulp.watch("img/**/*.*", ['dev'])
   gulp.watch("tpl/*.html", ['dust-templates']);
