@@ -5,6 +5,7 @@
   "devDependencies": {
     "browser-sync": "^2.7.1",
     "gulp": "^3.8.11",
+    "gulp-concat": "^2.5.2",
     "gulp-dust": "^1.0.2",
     "gulp-ruby-sass": "^1.0.5",
     "gulp-watch": "^4.2.4",

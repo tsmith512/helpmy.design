@@ -1,5 +1,6 @@
 var gulp = require('gulp'),
     browserSync = require('browser-sync').create(),
+    concat = require('gulp-concat'),
     dust = require('gulp-dust'),
     reload = browserSync.reload,
     sass = require('gulp-ruby-sass'),
@@ -17,7 +18,8 @@ gulp.task('index', function() {
 gulp.task('dust-templates', function () {
   return gulp.src('tpl/*.html')
     .pipe(dust())
-    .pipe(gulp.dest('_dist/tpl/'));
+    .pipe(concat('tpl.js'))
+    .pipe(gulp.dest('_dist/js/'));
 });
 
 // Compile Sass
