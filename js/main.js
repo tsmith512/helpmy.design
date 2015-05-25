@@ -3,11 +3,6 @@
 
   var presentArticles = function(data) {
 
-    // @TODO: Remove debug code
-    console.log(data);
-    console.log(data.tags);
-    console.log(data.types);
-
     // Render out all article teasers
     dust.render('article.html', data, function(err, out) {
       document.getElementById('index').innerHTML = out;

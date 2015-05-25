@@ -146,3 +146,5 @@ gulp.task('serve', ['index', 'dust-templates', 'js', 'dev', 'sass'], function() 
   gulp.watch("scss/**/*.scss", ['sass']);
   gulp.watch("_dist/**/*.*").on('change', reload);
 });
+
+gulp.task('build', ['index', 'dust-templates', 'js', 'dev', 'sass']);
