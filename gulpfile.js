@@ -16,7 +16,10 @@ gulp.task('index', function() {
     .pipe(tap(function(indexBuffer){
       // Tap into the stream and reorder the links in the buffer so they
       // will be in alphabetical order without the client needing to do so.
-      var index = JSON.parse(indexBuffer.contents.toString('utf8'));
+      // We'll also aggregate and count all types and tags for all links.
+      var index = JSON.parse(indexBuffer.contents.toString('utf8')),
+          tags = {},
+          types = {};
 
       index.links.sort(function(a, b){
         var titleA = a.title.toLowerCase().replace(/^(a(n)?|the) /, ''),
@@ -33,22 +36,6 @@ gulp.task('index', function() {
         // Add an ID to each
         item.id = i;
 
-      });
-
-      indexBuffer.contents = new Buffer(JSON.stringify(index));
-    }))
-    .pipe(gulp.dest('_dist/js/'))
-    .pipe(tap(function(indexBuffer){
-      // Tap into the stream and reorder the links in the buffer so they
-      // will be in alphabetical order without the client needing to do so.
-      var index = JSON.parse(indexBuffer.contents.toString('utf8')),
-          cssRules = ['.js-filtered article { display: none; }'],
-          tags = [],
-          types = [];
-
-      // Process each article
-      index.links.forEach(function(item, i){
-
         // Aggregate tags across all links so we have a count of each
         item.tags.forEach(function(tag, x){
           if (tag in tags) {
@@ -64,7 +51,22 @@ gulp.task('index', function() {
         } else {
           types[item.type] = 1;
         }
+
       });
+
+      index.types = types;
+      index.tags = tags;
+
+      indexBuffer.contents = new Buffer(JSON.stringify(index));
+    }))
+    .pipe(gulp.dest('_dist/js/'))
+    .pipe(tap(function(indexBuffer){
+      // Tap into the stream and reorder the links in the buffer so they
+      // will be in alphabetical order without the client needing to do so.
+      var index = JSON.parse(indexBuffer.contents.toString('utf8')),
+          cssRules = ['.js-filtered article { display: none; }'],
+          tags = index.tags,
+          types = index.types;
 
       for (var tag in tags) {
         if (tags.hasOwnProperty(tag)) {
@@ -78,7 +80,7 @@ gulp.task('index', function() {
         }
       }
 
-      indexBuffer.contents = new Buffer(cssRules.join(''));
+      indexBuffer.contents = new Buffer(cssRules.join(' '));
     }))
     .pipe(concat('index.css'))
     .pipe(gulp.dest('_dist/css/'));

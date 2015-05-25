@@ -1,35 +1,12 @@
 (function(){
   'use strict';
 
-  var tags = {},
-      types = {};
-
   var presentArticles = function(data) {
-
-    // Process each article
-    data.links.forEach(function(item, i){
-
-      // Aggregate tags across all links so we have a count of each
-      item.tags.forEach(function(tag, x){
-        if (tag in tags) {
-          tags[tag]++
-        } else {
-          tags[tag] = 1;
-        }
-      });
-
-      // Aggregate types  across all links so we have a count of each
-      if (item.type in types) {
-        types[item.type]++
-      } else {
-        types[item.type] = 1;
-      }
-    });
 
     // @TODO: Remove debug code
     console.log(data);
-    console.log(tags);
-    console.log(types);
+    console.log(data.tags);
+    console.log(data.types);
 
     // Render out all article teasers
     dust.render('article.html', data, function(err, out) {
@@ -51,7 +28,7 @@
     });
 
     // Render out the filters
-    dust.render('form.html', {'tags':tags, 'types': types}, function(err, out) {
+    dust.render('form.html', {'tags':data.tags, 'types': data.types}, function(err, out) {
       document.getElementById('filters').innerHTML = out;
 
       var filters = document.querySelectorAll('button');
