@@ -52,14 +52,20 @@ gulp.task('sass', function () {
   .pipe(gulp.dest('./_dist/css'));
 });
 
-// Gather library/vendor JS
+// Gather and concatenate all JS
 gulp.task('js', function () {
-  return gulp.src([
+  gulp.src([
     'js/vendor/dustjs/dist/dust-full.js',
     'js/vendor/dust-helpers/dist/dust-helpers.js',
     'js/vendor/dust-motes/src/helpers/control/iterate/iterate.js',
   ])
     .pipe(concat('lib.js'))
+    .pipe(gulp.dest('_dist/js'));
+
+  gulp.src([
+    'js/main.js',
+  ])
+    .pipe(concat('main.js'))
     .pipe(gulp.dest('_dist/js'));
 })
 
