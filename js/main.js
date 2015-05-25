@@ -6,17 +6,6 @@
 
   var presentArticles = function(data) {
 
-    // Sort all links by title
-    // @TODO: This would be better done server-side when the index is processed
-    data.links.sort(function(a, b){
-      var titleA = a.title.toLowerCase().replace(/^(a(n)?|the) /, ''),
-          titleB = b.title.toLowerCase().replace(/^(a(n)?|the) /, '');
-
-      if      (titleA > titleB) { return  1 }
-      else if (titleA < titleB) { return -1 }
-      else    { return 0 }
-    });
-
     // Process each article
     data.links.forEach(function(item, i){
 

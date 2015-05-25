@@ -4,6 +4,8 @@ var gulp = require('gulp'),
     dust = require('gulp-dust'),
     reload = browserSync.reload,
     sass = require('gulp-ruby-sass'),
+    tap = require('gulp-tap'),
+    util = require('util'),
     watch = require('gulp-watch'),
     yaml = require('gulp-yaml');
 
@@ -11,6 +13,22 @@ var gulp = require('gulp'),
 gulp.task('index', function() {
   gulp.src('links/*.yml')
     .pipe(yaml({ safe: true }))
+    .pipe(tap(function(indexBuffer){
+      // Tap into the stream and reorder the links in the buffer so they
+      // will be in alphabetical order without the client needing to do so.
+      var index = JSON.parse(indexBuffer.contents.toString('utf8'));
+
+      index.links.sort(function(a, b){
+        var titleA = a.title.toLowerCase().replace(/^(a(n)?|the) /, ''),
+            titleB = b.title.toLowerCase().replace(/^(a(n)?|the) /, '');
+
+        if      (titleA > titleB) { return  1 }
+        else if (titleA < titleB) { return -1 }
+        else    { return 0 }
+      });
+
+      indexBuffer.contents = new Buffer(JSON.stringify(index));
+    }))
     .pipe(gulp.dest('_dist/js/'));
 });
 
