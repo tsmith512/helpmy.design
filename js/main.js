@@ -9,9 +9,6 @@
     // Process each article
     data.links.forEach(function(item, i){
 
-      // Add an ID to each
-      item.id = i;
-
       // Aggregate tags across all links so we have a count of each
       item.tags.forEach(function(tag, x){
         if (tag in tags) {
@@ -28,24 +25,6 @@
         types[item.type] = 1;
       }
     });
-
-    var filterStylesheet = document.createElement('style'),
-        cssRules = ['.js-filtered article { display: none; }'];
-
-    for (var tag in tags) {
-      if (tags.hasOwnProperty(tag)) {
-        cssRules.push('.js-filtered.tag-' + tag + ' .tag-' + tag + ' { display: block; }');
-        cssRules.push('.js-filtered.tag-' + tag + ' li[data-tag="tag-' + tag + '"] { color: white; }');
-      }
-    }
-    for (var type in types) {
-      if (types.hasOwnProperty(type)) {
-        cssRules.push('.js-filtered.type-' + type + ' .type-' + type + ' { display: block; }');
-      }
-    }
-    filterStylesheet.type = 'text/css';
-    filterStylesheet.innerHTML = cssRules.join(' ');
-    document.getElementsByTagName('head')[0].appendChild(filterStylesheet);
 
     // @TODO: Remove debug code
     console.log(data);

@@ -27,9 +27,61 @@ gulp.task('index', function() {
         else    { return 0 }
       });
 
+      // Process each article
+      index.links.forEach(function(item, i){
+
+        // Add an ID to each
+        item.id = i;
+
+      });
+
       indexBuffer.contents = new Buffer(JSON.stringify(index));
     }))
-    .pipe(gulp.dest('_dist/js/'));
+    .pipe(gulp.dest('_dist/js/'))
+    .pipe(tap(function(indexBuffer){
+      // Tap into the stream and reorder the links in the buffer so they
+      // will be in alphabetical order without the client needing to do so.
+      var index = JSON.parse(indexBuffer.contents.toString('utf8')),
+          cssRules = ['.js-filtered article { display: none; }'],
+          tags = [],
+          types = [];
+
+      // Process each article
+      index.links.forEach(function(item, i){
+
+        // Aggregate tags across all links so we have a count of each
+        item.tags.forEach(function(tag, x){
+          if (tag in tags) {
+            tags[tag]++
+          } else {
+            tags[tag] = 1;
+          }
+        });
+
+        // Aggregate types  across all links so we have a count of each
+        if (item.type in types) {
+          types[item.type]++
+        } else {
+          types[item.type] = 1;
+        }
+      });
+
+      for (var tag in tags) {
+        if (tags.hasOwnProperty(tag)) {
+          cssRules.push('.js-filtered.tag-' + tag + ' .tag-' + tag + ' { display: block; }');
+          cssRules.push('.js-filtered.tag-' + tag + ' li[data-tag="tag-' + tag + '"] { color: white; }');
+        }
+      }
+      for (var type in types) {
+        if (types.hasOwnProperty(type)) {
+          cssRules.push('.js-filtered.type-' + type + ' .type-' + type + ' { display: block; }');
+        }
+      }
+
+      indexBuffer.contents = new Buffer(cssRules.join(''));
+    }))
+    .pipe(concat('index.css'))
+    .pipe(gulp.dest('_dist/css/'));
 });
 
 // Compile Dust templates
