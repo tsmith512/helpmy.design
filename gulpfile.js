@@ -109,8 +109,8 @@ gulp.task('sass', function () {
 // Gather and concatenate all JS
 gulp.task('js', function () {
   gulp.src([
-    'js/vendor/dustjs/dist/dust-full.js',
-    'js/vendor/dust-helpers/dist/dust-helpers.js',
+    'js/vendor/dustjs/dist/dust-core.min.js',
+    'js/vendor/dust-helpers/dist/dust-helpers.min.js',
     'js/vendor/dust-motes/src/helpers/control/iterate/iterate.js',
   ])
     .pipe(concat('lib.js'))
