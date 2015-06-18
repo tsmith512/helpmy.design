@@ -31,6 +31,7 @@
         el.addEventListener('click', function(event) {
           var currentFilter = event.target.getAttribute('data-filter'),
               index = document.getElementById('index');
+          document.getElementById('filters').classList.remove('show');
           index.className = '';
           window.location.hash = (currentFilter != 'any') ? currentFilter : '';
           if (currentFilter != 'any') {
@@ -39,6 +40,11 @@
           }
         });
       });
+
+      document.getElementById('menu-toggle').addEventListener('click', function(event){
+        document.getElementById('filters').classList.toggle('show');
+        event.preventDefault();
+      })
     });
   }
 

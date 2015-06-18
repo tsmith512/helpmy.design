@@ -22,11 +22,30 @@
     }
   }
 
-  #menu {
+  .menu {
     text-align: right;
 
     @include breakpoint(680px) {
       display: none;
+    }
+
+    a {
+      display: inline-block;
+      padding: 1em 1em 1em 2em;
+      color: hmd-color($grey, 'highlight');
+      font-weight: 600;
+      text-transform: uppercase;
+      text-decoration: none;
+      background: {
+        image: url('../gfx/icons/menu.svg');
+        position: center left;
+        size: 1em 1em;
+        repeat: no-repeat;
+      }
+
+      &:hover {
+        color: hmd-color($grey, 'highlight', 20%);
+      }
     }
   }
 
@@ -97,5 +116,19 @@
     @include breakpoint(960px) {
       width: 50%;
     }
+  }
+}
+
+// The #menu-toggle button toggles the class .show on #filter. Below a certain
+// width (680px), .types and .tags are hidden. Add a simple rule for #filters.show
+// to show them !importantly so that CSS can do this instead of JS.
+#filters.show {
+  .types {
+    display: block !important;
+  }
+  .tags {
+    display: -ms-flexbox !important;
+    display: -webkit-flex !important;
+    display: flex !important;
   }
 }
