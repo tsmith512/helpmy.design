@@ -33,11 +33,9 @@
               index = document.getElementById('index');
           document.getElementById('filters').classList.remove('show');
           index.className = '';
-          window.location.hash = (currentFilter != 'any') ? currentFilter : '';
-          if (currentFilter != 'any') {
-            index.classList.add('js-filtered');
-            index.classList.add(currentFilter);
-          }
+          index.classList.add('js-filtered');
+          index.classList.add(currentFilter);
+          window.location.hash = currentFilter;
         });
       });
 
