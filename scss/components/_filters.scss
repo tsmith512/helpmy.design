@@ -22,8 +22,20 @@
     }
   }
 
+  #menu {
+    text-align: right;
+
+    @include breakpoint(680px) {
+      display: none;
+    }
+  }
+
   .types, .tags {
     @extend %clearfix;
+
+    @include breakpoint(max-width 679px) {
+      display: none;
+    }
   }
 
   button {
