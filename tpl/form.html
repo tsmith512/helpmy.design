@@ -1,0 +1,14 @@
+<h1 id="logo">Helpmy.design</h1>
+<div class="menu">
+  <a id="menu-toggle" href="#">Menu</a>
+</div>
+<div class="types">
+  {@iterate key=types sort="asc"}
+    <button data-filter="type-{$key}" class="type type-{$key}">{$key}</button>
+  {/iterate}
+</div>
+<div class="tags">
+  {@iterate key=tags sort="asc"}
+    <button data-filter="tag-{$key}" class="tag tag-{$key}">{$key} ({$value})</button>
+  {/iterate}
+</div>

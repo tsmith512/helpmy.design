@@ -1,0 +1,55 @@
+////////////////////////
+// Functions Partials
+//
+// All of your functions should go in this file.
+////////////////////////
+
+
+// A function to grab the value of the breakpoint, if we are just doing min-width.
+@function bp-value($context) {
+  @if type-of($breakpoints) != 'map' {
+    @warn "Your breakpoints aren't a map! See https://github.com/snugug/respond-to#api if you'd like a reminder on how to use Respond-to";
+    @return false;
+  }
+  @else if map-has-key($breakpoints, $context) {
+    @if type-of(map-get($breakpoints, $context)) == 'number' {
+      @return map-get($breakpoints, $context);
+    }
+  }
+  @else {
+    @warn "There is no breakpoint defined for this context.";
+  }
+
+  @return false;
+}
+
+
+// Color Utility:
+//   $color: one of the color maps defined in _variables.scss: purple, red,
+//           orange, blue, grey, or green
+//   $value: the color value, string preferred, but legacy index numbers are
+//           translated with a warning. Dark, main (default if not provided),
+//           bright, highlight.
+//   $adjustment: A percentage to lighten or darken the selected color value.
+//           +/-5% is preferred, but other values are used on RARE OCCASION.
+@function hmd-color($color, $value: 'main', $adjustment: 0) {
+  @if map-has-key($color, $value) {
+    $selected: map-get($color, $value);
+
+    @if ($adjustment > 0) {
+      @return lighten($selected, $adjustment);
+    }
+    @else if ($adjustment < 0) {
+      @return darken($selected, abs($adjustment));
+    }
+    @else {
+      @return $selected;
+    }
+  }
+
+  @else {
+    @warn '@function hmd-color error: ' + $value + ' value is not defined within provided color map.';
+  }
+
+  @return false;
+}

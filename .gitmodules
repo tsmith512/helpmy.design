@@ -1,0 +1,9 @@
+[submodule "js/vendor/dustjs"]
+	path = js/vendor/dustjs
+	url = git@github.com:linkedin/dustjs.git
+[submodule "js/vendor/dust-motes"]
+	path = js/vendor/dust-motes
+	url = git@github.com:rragan/dust-motes.git
+[submodule "js/vendor/dust-helpers"]
+	path = js/vendor/dust-helpers
+	url = git@github.com:linkedin/dustjs-helpers.git

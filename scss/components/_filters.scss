@@ -1,0 +1,135 @@
+/**
+ * @file _filters.scss
+ */
+#filters {
+  @extend %clearfix;
+  background: hmd-color($grey, 'dark', -10%);
+
+  h1 {
+    display: block;
+    height: 0;
+    max-width: 280px;
+    margin: 0 auto;
+    padding-bottom: 20%;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    background: {
+      image: url('../gfx/logo.svg');
+      position: center center;
+      repeat: no-repeat;
+      size: contain;
+    }
+  }
+
+  .menu {
+    text-align: right;
+
+    @include breakpoint(680px) {
+      display: none;
+    }
+
+    a {
+      display: inline-block;
+      padding: 1em 1em 1em 2em;
+      color: hmd-color($grey, 'highlight');
+      font-weight: 600;
+      text-transform: uppercase;
+      text-decoration: none;
+      letter-spacing: 2px;
+      background: {
+        image: url('../gfx/icons/menu.svg');
+        position: center left;
+        size: 1em 1em;
+        repeat: no-repeat;
+      }
+
+      &:hover {
+        color: hmd-color($grey, 'highlight', 20%);
+      }
+    }
+  }
+
+  .types, .tags {
+    @extend %clearfix;
+
+    @include breakpoint(max-width 679px) {
+      display: none;
+    }
+  }
+
+  button {
+    width: 100%;
+    border: 0;
+    padding: 1em;
+    background: transparent;
+    @include transition(background .1s ease-out);
+    font-family: $play;
+  }
+
+  .types {
+    border-bottom: 2px solid hmd-color($grey, 'main', -5%);
+
+    @include breakpoint(960px) {
+      @include flexbox-defaults;
+    }
+  }
+
+  .type {
+    background-color: hmd-color($grey, 'main', 10%);
+
+    @include breakpoint(max-width 1519px) {
+      border-top: 1px solid hmd-color($grey, 'main', 5%);
+      border-bottom: 1px solid hmd-color($grey, 'main', 15%);
+    }
+    @include breakpoint(1520px) {
+      @include flexbox-defaults-items;
+      border-left: 1px solid hmd-color($grey, 'main', 5%);
+      border-right: 1px solid hmd-color($grey, 'main', 15%);
+      width: 33.333%;
+    }
+
+    &:hover { background-color: hmd-color($grey, 'main', 15%); }
+    color: hmd-color($grey, 'dark');
+    @include text-shadow(1px 1px 0 hmd-color($grey, 'dark', -5%));
+    font-weight: bold;
+
+    &.type-article { color: hmd-color($blue, main); }
+    &.type-resource { color: hmd-color($green, main); }
+    &.type-styleguide { color: hmd-color($orange, main); }
+  }
+
+  .tags {
+    @extend %flexbox-defaults;
+  }
+
+  .tag {
+    @extend %flexbox-defaults-items;
+    color: hmd-color($grey, 'highlight');
+    background: hmd-color($grey, 'dark', -10%);
+    &:hover { background-color: hmd-color($grey, 'dark', -15%); }
+    border-bottom: 1px solid hmd-color($grey, 'dark', -5%);
+
+    @include breakpoint(max-width 679px) {
+      width: auto;
+    }
+
+    @include breakpoint(960px) {
+      width: 50%;
+    }
+  }
+}
+
+// The #menu-toggle button toggles the class .show on #filter. Below a certain
+// width (680px), .types and .tags are hidden. Add a simple rule for #filters.show
+// to show them !importantly so that CSS can do this instead of JS.
+#filters.show {
+  .types {
+    display: block !important;
+  }
+  .tags {
+    display: -ms-flexbox !important;
+    display: -webkit-flex !important;
+    display: flex !important;
+  }
+}

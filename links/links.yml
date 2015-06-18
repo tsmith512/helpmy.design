@@ -1,0 +1,299 @@
+links:
+  - title: '16 Pixels: For Body Copy. Anything Less Is A Costly Mistake'
+    type:  'article'
+    url:   'http://www.smashingmagazine.com/2011/10/07/16-pixels-body-copy-anything-less-costly-mistake/'
+    by:    'Smashing Magazine'
+    year:  2011
+    tags:  [ux, typography]
+  - title: 'Accordions Are Not Always the Answer for Complex Content on Desktops'
+    type:  'article'
+    url:   'http://www.nngroup.com/articles/accordions-complex-content/'
+    by:    'Nielsen Norman Group'
+    year:   2014
+    tags:  [ux, desktop, accordions]
+  - title: 'Auto-Forwarding Carousels and Accordions Annoy Users and Reduce Visibility'
+    type:  'article'
+    url:   'http://www.nngroup.com/articles/auto-forwarding/'
+    by:    'Nielsen Norman Group'
+    year:  2013
+    tags:  [ux, carousels, accordions, visibility]
+  - title: 'Avoid Category Names That Suck'
+    type:  'article'
+    url:   'http://www.nngroup.com/articles/category-names-suck/'
+    by:    'Nielsen Norman Group'
+    tags:  [ux, writing, taxonomy, navigation]
+  - title: 'Avoid Format-Based Primary Navigation'
+    type:  'article'
+    url:   'http://www.nngroup.com/articles/format-based-navigation/'
+    by:    'Nielsen Norman Group'
+    year:  2014
+    tags:  [ux, navigation, taxonomy]
+  - title: 'Avoid Inline Scrolling Areas'
+    type:  'article'
+    url:   'http://baymard.com/blog/inline-scroll-areas'
+    by:    'Baymard Institute'
+    tags:  [ux, scrolling]
+  - title: 'Beware Horizontal Scrolling and Mimicking Swipe on Desktop'
+    type:  'article'
+    url:   'http://www.nngroup.com/articles/horizontal-scrolling/'
+    by:    'Nielsen Norman Group'
+    tags:  [ux, scrolling, desktop]
+  - title: 'Breadcrumbs in Web Design: Examples and Best Practices'
+    type:  'article'
+    url:   'http://www.smashingmagazine.com/2009/03/17/breadcrumbs-in-web-design-examples-and-best-practices/'
+    by:    'Smashing Magazine'
+    year:  2009
+    tags:  [ux, navigation, writing, breadcrumbs]
+  - title: 'Breadcrumb Navigation Increasingly Useful'
+    type:  'article'
+    url:   'http://www.nngroup.com/articles/breadcrumb-navigation-useful/'
+    by:    'Nielsen Norman Group'
+    year:  2007
+    tags:  [ux, breadcrumbs, navigation]
+  - title: 'Designing Effective Carousels: Create a Fanciful Amusement, Not a House of Horrors'
+    type:  'article'
+    url:   'http://www.nngroup.com/articles/designing-effective-carousels/'
+    by:    'Nielsen Norman Group'
+    year:  2013
+    tags:  [ux, carousels]
+  - title: 'Fight Against "Right-Rail Blindness"'
+    type:  'article'
+    url:   'http://www.nngroup.com/articles/fight-right-rail-blindness/'
+    by:    'Nielsen Norman Group'
+    tags:  [ux, sidebars, visibility]
+  - title: 'Four Dangerous Navigation Approaches that Can Increase Cognitive Strain'
+    type:  'article'
+    url:   'http://www.nngroup.com/articles/navigation-cognitive-strain/'
+    by:    'Nielsen Norman Group'
+    tags:  [ux, navigation, writing]
+  - title: 'Image-Focused Design: Is Bigger Better?'
+    type:  'article'
+    url:   'http://www.nngroup.com/articles/image-focused-design/'
+    by:    'Nielsen Norman Group'
+    year:  2014
+    tags:  [ux, images]
+  - title: 'Infinite Scrolling Is Not for Every Website'
+    type:  'article'
+    url:   'http://www.nngroup.com/articles/infinite-scrolling/'
+    by:    'Nielsen Norman Group'
+    tags:  [ux, scrolling]
+  - title: 'Killing Off the Global Navigation: One Trend to Avoid'
+    type:  'article'
+    url:   'http://www.nngroup.com/articles/killing-global-navigation-one-trend-avoid/'
+    by:    'Nielsen Norman Group'
+    tags:  [ux, navigation]
+  - title: 'The Magnifying Glass Icon in Search Design: Pros and Cons'
+    type:  'article'
+    url:   'http://www.nngroup.com/articles/magnifying-glass-icon/'
+    by:    'Nielsen Norman Group'
+    tags:  [ux, iconography, i18n]
+  - title: 'Placeholders in Form Fields Are Harmful'
+    type:  'article'
+    url:   'http://www.nngroup.com/articles/form-design-placeholders'
+    by:    'Nielsen Norman Group'
+    year:  2014
+    tags:  [ux, forms]
+  - title: 'Should I Use a Carousel?'
+    type:  'article'
+    url:   'http://shouldiuseacarousel.com/'
+    tags:  [ux, carousels]
+  - title: 'Best Practices of Combining Typefaces'
+    type:  'article'
+    url:   'http://www.smashingmagazine.com/2010/11/04/best-practices-of-combining-typefaces/'
+    by:    'Smashing Magazine'
+    tags:  [design, typography]
+  - title: 'Contrast Rebellion'
+    type:  'article'
+    url:   'http://contrastrebellion.com/'
+    tags:  [ux, design, typography, accessibility, usability, color]
+  - title: 'Why Your Links Should Never Say "Click Here"'
+    type:  'article'
+    url:   'http://uxmovement.com/content/why-your-links-should-never-say-click-here/'
+    by:    'UX Movement'
+    year:  2012
+    tags:  [ux, writing, accessibility, usability, navigation]
+  - title: 'Break Grammar Rules on Websites for Clarity'
+    type:  'article'
+    url:   'http://www.nngroup.com/articles/break-grammar-rules/'
+    by:    'Nielsen Norman Group'
+    year:  2014
+    tags:  [ux, writing, usability]
+  - title: 'Really Break Grammar Rules on Websites: Part Two'
+    type:  'article'
+    url:   'http://www.nngroup.com/articles/really-break-grammar-rules/'
+    by:    'Nielsen Norman Group'
+    year:  2014
+    tags:  [ux, writing, usability]
+  - title: 'Rotating Offers – the Scourge of Home Page Design'
+    type:  'article'
+    url:   'http://www.widerfunnel.com/conversion-rate-optimization/rotating-offers-the-scourge-of-home-page-design'
+    by:    'Wider Funnel'
+    year:  2013
+    tags:  [ux, carousels]
+  - title: 'Password Creation: 3 Ways To Make It Easier'
+    type:  'article'
+    url:   'http://www.nngroup.com/articles/password-creation/'
+    by:    'Nielsen Norman Group'
+    year:  2015
+    tags:  [ux, passwords, forms]
+  - title: 'Color Contrast for Better Readability'
+    type:  'article'
+    url:   'http://viget.com/inspire/color-contrast'
+    year:  2015
+    by:    'Tom Osborne, Viget'
+    tags:  [legibility, accessibility, color]
+  - title: 'Why and How to Avoid Hamburger Menus'
+    type:  'article'
+    url:   'https://lmjabreu.com/post/why-and-how-to-avoid-hamburger-menus/'
+    by:    'Luis Abreu'
+    tags:  [navigation, sidebars, usability]
+  - title: "Myth #3: People Don't Scroll"
+    type:  'article'
+    url:   'http://uxmyths.com/post/654047943/myth-people-dont-scroll'
+    by:    'UXMyths'
+    tags:  [ux, scrolling]
+  - title: 'Everybody Scrolls.'
+    type:  'article'
+    url:   'http://www.hugeinc.com/ideas/perspective/everybody-scrolls'
+    by:    'HUGE'
+    year:  2014
+    tags:  [ux, scrolling]
+  - title: 'Life Below 600px'
+    type:  'article'
+    url:   'http://www.iampaddy.com/lifebelow600/'
+    by:    'Paddy Donnelly, Lefft'
+    tags:  [ux, scrolling]
+  - title: 'How to name things: the hardest problem in programming'
+    type:  'article'
+    desc:  'Although written for programming, this deck has valuable lessons for naming any thing or action that will be exposed to a user through a label.'
+    url:   'http://www.slideshare.net/pirhilton/how-to-name-things-the-hardest-problem-in-programming'
+    by:    'Peter Hilton'
+    tags:  [writing, navigation, forms]
+  - title: 'Overuse of Overlays: How to Avoid Misusing Lightboxes'
+    type:  'article'
+    url:   'http://www.nngroup.com/articles/overuse-of-overlays/'
+    by:    'Norman Nielsen Group'
+    year:  2015
+    tags:  [ux, accessibility, overlays, usability]
+  - title: 'Asking Probing Questions During a Usability Study'
+    type:  'article'
+    url:   'http://www.uxmatters.com/mt/archives/2015/05/asking-probing-questions-during-a-usability-study.php'
+    by:    'Janet M. Six, UX Matters'
+    year:  2015
+    tags:  [testing, usability]
+  - title: 'Interface Writing: Code for Humans'
+    type:  'article'
+    url:   'http://nicolefenton.com/interface-writing/'
+    by:    'Nicole Fenton'
+    year:  2015
+    tags:  [writing, navigation, usability]
+  - title: 'Color Contrast Checker'
+    type:  'resource'
+    url:   'http://webaim.org/resources/contrastchecker/'
+    desc:  'Test background and text colors for adequate contrast and WCAG AA or WCAG AAA compliance.'
+    by:    'WebAIM'
+    tags:  [accessibility, design, legibility, color]
+  - title: ':nth-child Tester'
+    type:  'resource'
+    url:   'http://css-tricks.com/examples/nth-child-tester/'
+    by:    'CSS Tricks,  Chris Coyier'
+    desc:  'Playground for figuring out nth-child selectors'
+    tags:  [development, css, frontend]
+  - title: 'amp-what'
+    type:  'resource'
+    url:   'http://amp-what.com/'
+    desc:  'HTML entity character map lookup'
+    tags:  [development, typography]
+  - title: 'DataURL.net'
+    type:  'resource'
+    url:   'http://dataurl.net/'
+    desc:  'Create dataURL strings from images'
+    tags:  [development, frontend]
+  - title: 'Regexper'
+    type:  'resource'
+    url:   'http://www.regexper.com/'
+    desc:  'Visualize regular expressions'
+    tags:  [development, js]
+  - title: 'Unheap'
+    type:  'resource'
+    url:   'http://www.unheap.com'
+    desc:  'jQuery plugins library'
+    tags:  [development, js]
+  - title: 'Iconmonstr'
+    type:  'resource'
+    url:   'http://iconmonstr.com/'
+    desc:  'Free icons in and SVG and PNG. (Used here on helpmy.design!)'
+    tags:  [iconography, typography, 'free-stuff', design]
+  - title: 'The Noun Project'
+    type:  'resource'
+    url:   'https://thenounproject.com/'
+    desc:  'High quality icons in many styles covering many topics in raster or vector formats. Some are free, many are not.'
+    tags:  [iconography, design]
+  - title: 'Noise Texture Generator'
+    type:  'resource'
+    tags:  [iconography, 'free-stuff', design]
+    url:   'http://www.noisetexturegenerator.com/'
+    desc:  'Generates noise in PNGs for patterns; provides repeating sample. <em>(Tip: Inspect Element to get the image as a dataURI.)</em>'
+    tags:  [design, patterns, 'free-stuff']
+  - title: 'ColourLovers'
+    type:  'resource'
+    desc:  'Browse, create, and share colors, palettes, and patterns.'
+    url:   'http://www.colourlovers.com/'
+    tags:  [color, patterns, design, 'free-stuff']
+  - title: 'Patternify'
+    type:  'resource'
+    url:   'http://www.patternify.com/'
+    desc:  'Repeating pattern and dataURI generator'
+    tags:  [design, patterns]
+  - title: 'Subtle Patterns'
+    type:  'resource'
+    url:   'http://subtlepatterns.com/'
+    desc:  'Free, very high quality repeating textures and patterns'
+    tags:  [design, patterns, 'free-stuff']
+  - title: 'The Style Guide Guide'
+    type:  'resource'
+    url:   'http://vinspee.me/style-guide-guide'
+    desc:  'A repository of style guide generators by platform'
+    tags:  [frontend]
+  - title: 'Pexels'
+    type:  'resource'
+    url:   'http://www.pexels.com/'
+    desc:  'Over 2,000 high-quality photos free for personal or commercial use (CC0 license).'
+    tags:  [images, 'free-stuff']
+  - title: 'A Pattern Library'
+    type:  'styleguide'
+    url:   'http://patterns.alistapart.com/'
+    desc:  'Style guide for <em>A List Apart</em>'
+    tags:  [design]
+  - title: 'GitHub Style Guide'
+    type:  'styleguide'
+    url:   'http://primercss.io/'
+    tags:  [design]
+  - title: 'Starbucks Style Guide'
+    type:  'styleguide'
+    url:   'http://www.starbucks.com/static/reference/styleguide/'
+    desc:  'Pretty technical and layout oriented'
+    tags:  [design]
+  - title: 'Voice & Tone'
+    type:  'styleguide'
+    url:   'http://voiceandtone.com/'
+    desc:  "MailChimp's writing style guide, a great presentation"
+    tags:  [design, writing]
+  - title: 'Yelp Style Guide'
+    type:  'styleguide'
+    url:   'http://www.yelp.com/styleguide'
+    tags:  [design]
+  - title: 'Code for America'
+    type:  'styleguide'
+    desc:  'Styleguide for Code for America'
+    tags:  [design, color, iconography]
+  - title: 'Mapbox'
+    type:  'styleguide'
+    desc:  'Mapbox styleguide'
+    url:   'https://www.mapbox.com/base/'
+    tags:  [design]
+  - title: 'Salesforce1'
+    type:  'styleguide'
+    desc:  'Styleguide for Salesforce1 platform applications'
+    url:   'http://sfdc-styleguide.herokuapp.com/'
+    tags:  [design, iconography, typography]

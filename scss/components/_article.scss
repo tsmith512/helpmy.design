@@ -1,0 +1,103 @@
+/**
+ * @file _article.scss
+ * Each article teaser on the index
+ */
+article {
+  position: relative;
+  overflow: hidden;
+  background: $black;
+  &:hover { background: hmd-color($grey, 'black', -5%); }
+  padding: 1em;
+  padding-top: 1.5em;
+  padding-bottom: (1 - 0.825em);
+  @include border-radius(8px);
+  @include transition(background .2s ease-out);
+
+  &:before {
+    position: absolute;
+    display: block;
+    content: "";
+    height: 0.5em;
+    top: 0;
+    left: 0;
+    right: 0;
+    @include transition(background .2s ease-out);
+  }
+
+  &#intro:before { background: hmd-color($red, main); }
+  &#intro:hover:before { background: hmd-color($red, bright); }
+  &.type-article:before { background: hmd-color($blue, main); }
+  &.type-article:hover:before { background: hmd-color($blue, bright); }
+  &.type-resource:before { background: hmd-color($green, main); }
+  &.type-resource:hover:before { background: hmd-color($green, bright); }
+  &.type-styleguide:before { background: hmd-color($orange, main); }
+  &.type-styleguide:hover:before { background: hmd-color($orange, bright); }
+
+  h1 {
+    margin: 0 0 0.5em 0;
+    font-size: 1em;
+    font-family: $montserrat;
+
+    a {
+      &, &:link { color: hmd-color($grey, 'white', -5%); }
+      &:visited { color: hmd-color($grey, 'highlight', 5%); }
+      &:hover, &:active { color: white; }
+      @include underline($background: $black, $color: hmd-color($grey, 'bright'), $distance: 0.9875, $width: 1);
+    }
+  }
+
+  p {
+    font-size: 0.875em;
+  }
+
+  .author, .year, .tags {
+    display: block;
+    font-size: 0.825em;
+    padding-left: 2em;
+    color: hmd-color($grey, 'highlight');
+    @include text-shadow(1px 1px 0 rgb(0,0,0));
+    @include transition(color .2s ease-out);
+    background: {
+      position: center left;
+      size: 1em 1em;
+      repeat: no-repeat;
+    }
+
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+
+    &:not(:last-child) {
+      border-bottom: 1px dotted hmd-color($grey, 'dark');
+    }
+  }
+
+  #{nest("&:hover", ".author, .year, .tags")} {
+    color: hmd-color($grey, 'highlight', 5%);
+  }
+
+  .author {
+    // @TODO: Compass image-url() and similar paths are including the
+    // entire filesystem path, which is weird and annoying and nothing
+    // I've tried has fixed it.
+    background-image: url('../gfx/icons/author.svg');
+  }
+
+  .year {
+    background-image: url('../gfx/icons/calendar.svg');
+  }
+
+  .tags {
+    background-image: url('../gfx/icons/tags.svg');
+
+    li {
+      list-style: none;
+      display: inline-block;
+      cursor: pointer;
+
+      @include transition(color 0.2s ease-out);
+      &:hover { color: hmd-color($grey, highlight, 10%); }
+    }
+  }
+}
