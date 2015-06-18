@@ -41,10 +41,15 @@
         });
       });
 
+      document.getElementById('logo').addEventListener('click', function(event){
+        index.className = '';
+        window.location.hash = '';
+      });
+
       document.getElementById('menu-toggle').addEventListener('click', function(event){
         document.getElementById('filters').classList.toggle('show');
         event.preventDefault();
-      })
+      });
     });
   }
 
