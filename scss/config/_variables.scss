@@ -85,6 +85,13 @@ $green: (
   highlight: #8adda1
 );
 
+$red: (
+  dark:      #660000,
+  main:      #990000,
+  bright:    #cc0000,
+  highlight: #ff0000
+);
+
 
 $white          : hmd-color($grey, 'white');
 $black          : hmd-color($grey, 'black');

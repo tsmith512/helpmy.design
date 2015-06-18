@@ -24,6 +24,8 @@ article {
     @include transition(background .2s ease-out);
   }
 
+  &#intro:before { background: hmd-color($red, main); }
+  &#intro:hover:before { background: hmd-color($red, bright); }
   &.type-article:before { background: hmd-color($blue, main); }
   &.type-article:hover:before { background: hmd-color($blue, bright); }
   &.type-resource:before { background: hmd-color($green, main); }
