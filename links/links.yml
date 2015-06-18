@@ -163,6 +163,30 @@ links:
     url:   'http://www.iampaddy.com/lifebelow600/'
     by:    'Paddy Donnelly, Lefft'
     tags:  [ux, scrolling]
+  - title: 'How to name things: the hardest problem in programming'
+    type:  'article'
+    desc:  'Although written for programming, this deck has valuable lessons for naming any thing or action that will be exposed to a user through a label.'
+    url:   'http://www.slideshare.net/pirhilton/how-to-name-things-the-hardest-problem-in-programming'
+    by:    'Peter Hilton'
+    tags:  [writing, navigation, forms]
+  - title: 'Overuse of Overlays: How to Avoid Misusing Lightboxes'
+    type:  'article'
+    url:   'http://www.nngroup.com/articles/overuse-of-overlays/'
+    by:    'Norman Nielsen Group'
+    year:  2015
+    tags:  [ux, accessibility, overlays, usability]
+  - title: 'Asking Probing Questions During a Usability Study'
+    type:  'article'
+    url:   'http://www.uxmatters.com/mt/archives/2015/05/asking-probing-questions-during-a-usability-study.php'
+    by:    'Janet M. Six, UX Matters'
+    year:  2015
+    tags:  [testing, usability]
+  - title: 'Interface Writing: Code for Humans'
+    type:  'article'
+    url:   'http://nicolefenton.com/interface-writing/'
+    by:    'Nicole Fenton'
+    year:  2015
+    tags:  [writing, navigation, usability]
   - title: 'Color Contrast Checker'
     type:  'resource'
     url:   'http://webaim.org/resources/contrastchecker/'
